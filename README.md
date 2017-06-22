@@ -11,6 +11,7 @@
 > *  [Ruby][6](git依赖) , [msysgit][7] / [TortoiseGit][8] / [SourceTree][9][win7以上]
 > *  [gulp][10] 下面会列出常用插件 , [ F.I.S (百度前端工具框架)][11]
 > *  [sass][12] [教程][13]/ [less][14]
+> * [sass文件编译方案](https://github.com/yyman001/any_question/issues/10) 
 > * `git`还有另外一个工具(在xp,win7上可用还是图形的哦,还有文章) [点我][15]
 
 安装顺序
@@ -23,12 +24,10 @@
 Sublime Text 3 代码片段插件
 https://packagecontrol.io/packages/JavaScript%20Completions
 
-模拟数据最好方案Easy Mock,提供的功能非常强大
-https://www.easy-mock.com/
-
 常用工具列表：
 
-> * `WebStrom` 我个人比较喜欢这个软件,功能非常强大 ,[sublime_text][20]([文章介绍][21]),[HBuilder][22]
+> * [Easy Moc](https://www.easy-mock.com/) 模拟数据最好方案,提供的功能非常强大
+> * [WebStrom](https://www.jetbrains.com/webstorm/) 我个人比较喜欢这个软件,功能非常强大 ,[sublime_text][20]([文章介绍][21]),[HBuilder][22]
 > * [vs code](http://www.vscode.org/) 和 [ATOM](http://www.atom.io)
 > * [Shadowsocks 科学上网 带有一个免费账号 https://github.com/yyman001/software]   (https://github.com/shadowsocks/shadowsocks-windows)
 > * [cmder(类似cmd的命令提示符,有自带git版本)][23]  [配置教程][24]
@@ -59,9 +58,12 @@ https://www.easy-mock.com/
 > * [APNG Software 转APNG软件](http://littlesvr.ca/apng/)
 > * [iSparta 图片压缩](http://isparta.github.io/)
 > * [limitPNG 图片压缩](http://nullice.com/limitPNG/)
+> * [智图客户端](https://zhitu.isux.us/index.php/preview/download)
 > * [phpStudy php搭建环境,包含多个版本随便切换](http://www.phpstudy.net/a.php/211.html)
 > * [字体解决方案1-字蛛是一个中文字体压缩器,让网页自由引入中文字体成为可能](http://font-spider.org/)
 > * [字体解决方案2-Fontmin,第一个纯 JavaScript 字体子集化方案](http://ecomfe.github.io/fontmin/)
+> * [雪碧图合并 Cyotek Spriter ]
+> * [雪碧图合并 TexturePackerGUI - 这个厉害点,支持生成雪碧图后的坐标值文件]
 
 页面性能分析工具(比较重要就不分类,直接一个大类)
 > * [gtmetrix 网站性能分析 - 推荐][38] 不想用插件工具就直接访问网页吧
@@ -89,11 +91,11 @@ https://www.easy-mock.com/
 除了最后一个网上可能找不到中文版
 [Google 镜像站搜集](https://github.com/sxyx2008/DevArticles/issues/99)
 谷歌浏览器插件 --用到谷歌插件其实很少(其实我自己用的蛮多),为了方便,因为谷歌插件下载很多问题,我直接发到网盘,有需要的可以自己下载(360,猎豹应用市场也有好多应用)
-> * [海淘访问助手-免费翻墙谷歌插件-强烈推荐](http://www.haitaojiasu.pw/)
-> * [octotree 看github的时候生成项目tree 推荐](https://github.com/buunguyen/octotree)
-> * [Awesome Autocomplete for GitHub - github搜索异步查询结果](https://chrome.google.com/webstore/detail/awesome-autocomplete-for/djkfdjpoelphhdclfjhnffmnlnoknfnd)
+> * [海淘访问助手](http://www.haitaojiasu.pw/) -免费翻墙谷歌插件-强烈推荐
+> * [octotree ](https://github.com/buunguyen/octotree) 看github的时候生成项目tree 推荐
+> * [Awesome Autocomplete for GitHub](https://chrome.google.com/webstore/detail/awesome-autocomplete-for/djkfdjpoelphhdclfjhnffmnlnoknfnd)  - github搜索异步查询结果
 > * [Quick CSS 快速在 Chrome 开发环境检测 CSS 代码的规范性](http://ued.qunar.com/mobile/devtools/css-extensions/)
-> * [AlloyDesigner 嵌入式开发插件-详情自己看连接](http://alloyteam.github.io/AlloyDesigner/)
+> * [AlloyDesigner ](http://alloyteam.github.io/AlloyDesigner/) 嵌入式开发插件-详情自己看连接
 > * [Web Developer][49] (居然被我找到谷歌版的,不过是英文的,不错了)
 > * [Window Resizer][50] (允许你快速调整浏览器窗口分辨率)
 > * [CSSViewer][51] (浮动面板简单显示CSS属性)
@@ -117,7 +119,6 @@ https://www.easy-mock.com/
 访问密码 a505
 
 其他软件工具
-
 > * [Flux][59] 调整屏幕亮度,暖色调
 > * [ADSafe][60] 过滤广告
 > * [Everything][61] 快速查询
@@ -127,7 +128,7 @@ https://www.easy-mock.com/
 > * [有道云笔记][65] 协作同步开发
 > * Proxy SwitchySharp 代理工具,翻墙用的,需要自己找账号信息填写哦
 
-####其他一些网上工具
+其他一些网上工具
 > * [使用GUI快速创建SVG path](http://anthonydugois.com/svg-path-builder/)
 > * [把CSS代码转成SASS的应用](http://css2sass.herokuapp.com/)
 > * [resizr 测试  CSS media queries 的轻量级应用-需要线上地址,没有线上地址,可以搞个coding-git](http://resizr.co/)
@@ -142,11 +143,9 @@ https://www.easy-mock.com/
 > * [正则图形显示][74]
 > * [CSS3/HTML5/SVG 兼容性查询表][75]
 > * [WhatTheFont-字体查询1][76] [求字体网-字体查询2][77] [What Font is-字体查询3][78]
+> * [运同步多人办公](https://yiqixie.com/)
 
-
-##gulp常用插件
-
-整理了在自己工作当中常用的一些gulp 插件
+gulp常用插件 整理了在自己工作当中常用的一些gulp 插件
 > * 编译Sass (gulp-ruby-sass || gulp-sass)
 > * 编译Map文件          (gulp-sourcemaps)
 > * 自动添加css前缀            （gulp-autoprefixer）
@@ -172,7 +171,7 @@ https://www.easy-mock.com/
 > * [提取html标记内容合并到指定位置 gulp-html-merge](https://github.com/yyman001/gulp-html-merge)
 > * 压缩html ([gulp-minify-html][83])
 
-##帮助文档
+帮助文档
 > * [css手册][84] 在线(里面可以下载,感谢作者:飘零雾雨)
 > * [jQuery手册][85] ，　[其他版本][86]
 > * [Zepto手册][87]
@@ -193,48 +192,6 @@ http://www.itdadao.com/articles/c15a743377p0.html
 
 在webstorm中配置sass的自动编译
 http://jinyanhuan.github.io/2015/04/03/sass-in-webstorm/
-```cmd
-//方案1 用kaola
-
-//方案2
-点击左上角的File→Settings→File Watchers
-
-Arguments:参数
---no-cache --style=compact --update --sourcemap --watch 
-$FileName$:$FileParentDir$\css\$FileNameWithoutExtension$.css
-
-Output paths to refresh:刷新输出路径
-$FileNameWithoutExtension$.css:$FileNameWithoutExtension$.css.map
-
-//但编译后游览器前缀没有补全,需要用 autoprefixer 处理下
-
-///////////////////////////////////////////autoprefixer
-var postcss = require('gulp-postcss');
-//var sass = require('gulp-sass'); //编译一直报错,不想用了
-
-var autoprefixer = require('autoprefixer');
-//var cssnano = require('cssnano');
-
-gulp.task('sass', function () {
-    var processors = [
-        autoprefixer
-        //,cssnano
-    ];
-    return gulp.src(word_dir_name + '/css/test.css')
-        //.pipe(sass().on('error', sass.logError))
-        .pipe(postcss(processors))
-        .pipe(gulp.dest(word_dir_name + '/css/'));
-});
-
-//监听 css 文件
-gulp.task('css:watch', function () {
-  gulp.watch(word_dir_name + '/css/*.css', ['sass']);
-});
-
-///////////////////////////////////////////autoprefixer
-
-
-```
 
 
 ------
@@ -243,7 +200,7 @@ gulp.task('css:watch', function () {
 
 作者 [@黑色技术][96]
 创建时间: 2015 年 3月 15日
-更新时间: 2017 年 6月 21日
+更新时间: 2017 年 6月 22日
 
 
 
