@@ -9,6 +9,7 @@
 > *  [node.js][1]  很多东西都需要它
 > *  [npm][2] , [cnpm][3] , [spm][4] 安装可以更换淘宝的安装包地址([淘宝镜像][5])
 > *  [Ruby][6](git依赖) , [msysgit][7] / [TortoiseGit][8] / [SourceTree][9][win7以上]
+> *  [git-ssh 配置和使用](https://segmentfault.com/a/1190000002645623) [coding](https://coding.net/help/doc/git/ssh-key.html)
 > *  [gulp][10] 下面会列出常用插件 , [ F.I.S (百度前端工具框架)][11]
 > *  [sass][12] [教程][13]/ [less][14]
 > * [sass文件编译方案](https://github.com/yyman001/any_question/issues/10) 
@@ -122,8 +123,7 @@ https://packagecontrol.io/packages/JavaScript%20Completions
 > * ScriptSafe汉化版 (可以控制页面的js脚本)
 > * Word Count 是一款用来统计选中网页的字数，支持中文的扩展。
 > * Chrono下载管理器(https://chrome.google.com/webstore/detail/chrono-download-manager/mciiogijehkdemklbdcbfkefimifhecn)
-建议访问 [360云盘共享][58] 文件多,有点乱,自己翻  
-访问密码 a505
+
 
 其他软件工具
 > * [Flux][59] 调整屏幕亮度,暖色调
@@ -207,7 +207,7 @@ http://jinyanhuan.github.io/2015/04/03/sass-in-webstorm/
 
 作者 [@黑色技术][96]
 创建时间: 2015 年 3月 15日
-更新时间: 2017 年 6月 22日
+更新时间: 2017 年 7月 4日
 
 
 
@@ -219,7 +219,7 @@ http://jinyanhuan.github.io/2015/04/03/sass-in-webstorm/
   [4]: http://docs.spmjs.org/doc/
   [5]: http://npm.taobao.org/
   [6]: https://www.ruby-lang.org/zh_cn/downloads/
-  [7]: https://msysgit.github.io/
+  [7]: https://git-for-windows.github.io
   [8]: http://download.tortoisegit.org/
   [9]: http://www.sourcetreeapp.com/
   [10]: http://gulpjs.com/
