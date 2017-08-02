@@ -38,6 +38,7 @@ https://packagecontrol.io/packages/JavaScript%20Completions
 > * [WebStrom](https://www.jetbrains.com/webstorm/) 我个人比较喜欢这个软件,功能非常强大 ,[sublime_text][20]([文章介绍][21]),[HBuilder][22]
 > * [vs code](http://www.vscode.org/) 和 [ATOM](http://www.atom.io)
 > * [Shadowsocks 科学上网 带有一个免费账号 https://github.com/yyman001/software]   (https://github.com/shadowsocks/shadowsocks-windows)
+> * [Beyond Compare 4](http://www.cr173.com/soft/20948.html) 文件对比
 > * [cmder(类似cmd的命令提示符,有自带git版本)][23]  [配置教程][24]
 > * [koala考拉][25](Less、Sass、Compass、CoffeeScript编译) ----免费
 > * [Mark 马克鳗][26] (设计图测量)
