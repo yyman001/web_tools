@@ -34,6 +34,7 @@ https://packagecontrol.io/packages/JavaScript%20Completions
 
 常用工具列表：
 
+> * [jsinspect 重构,检测相似的代码片](https://github.com/danielstjules/jsinspect)
 > * [Easy Moc](https://www.easy-mock.com/) 模拟数据最好方案,提供的功能非常强大
 > * [WebStrom](https://www.jetbrains.com/webstorm/) 我个人比较喜欢这个软件,功能非常强大 ,[sublime_text][20]([文章介绍][21]),[HBuilder][22]
 > * [vs code](http://www.vscode.org/) 和 [ATOM](http://www.atom.io)
@@ -100,6 +101,7 @@ https://packagecontrol.io/packages/JavaScript%20Completions
 除了最后一个网上可能找不到中文版
 [Google 镜像站搜集](https://github.com/sxyx2008/DevArticles/issues/99)
 谷歌浏览器插件 --用到谷歌插件其实很少(其实我自己用的蛮多),为了方便,因为谷歌插件下载很多问题,我直接发到网盘,有需要的可以自己下载(360,猎豹应用市场也有好多应用)
+> * [Sight](https://chrome.google.com/webstore/detail/sight/epmaefhielclhlnmjofcdapbeepkmggh) 通过各种主题和字体选项，Sight将网站的源代码以更为视觉舒适的形式强调。
 > * [海淘访问助手](http://www.haitaojiasu.pw/) -免费翻墙谷歌插件-强烈推荐
 > * [octotree ](https://github.com/buunguyen/octotree) 看github的时候生成项目tree 推荐
 > * [Awesome Autocomplete for GitHub](https://chrome.google.com/webstore/detail/awesome-autocomplete-for/djkfdjpoelphhdclfjhnffmnlnoknfnd)  - github搜索异步查询结果
