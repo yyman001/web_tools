@@ -42,6 +42,7 @@ https://packagecontrol.io/packages/JavaScript%20Completions
 > * [Beyond Compare 4](http://www.cr173.com/soft/20948.html) 文件对比
 > * [cmder(类似cmd的命令提示符,有自带git版本)][23]  [配置教程][24]
 > * [koala考拉][25](Less、Sass、Compass、CoffeeScript编译) ----免费
+> * [WeChatPlugin-MacOS 微信小助手-调试开发](https://github.com/TKkk-iOSer/WeChatPlugin-MacOS)
 > * [Mark 马克鳗][26] (设计图测量)
 > * [PxCook 像素大厨 智能标注绝对可以解放双手了，强烈推荐。](http://www.fancynode.com.cn/pxcook)
 > * [Assistor PS]() \(切图工具\)
