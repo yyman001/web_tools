@@ -30,10 +30,14 @@ npm install -g cnpm --registry=https://registry.npm.taobao.org
 ```js
 npm i -g gulp
 ```
-
-3.1.安装`Browsersync`
+3.1.安装`Webpack`
 ```cmd
-npm install -g browser-sync
+npm i -g webpack
+```
+
+3.2.安装`Browsersync`
+```cmd
+npm i -g browser-sync
 ```
 
 4.安装`ruby`,`（win7-8,win10选择 2.0以上的版本）` [window 安装 sass compass 记录][17]
