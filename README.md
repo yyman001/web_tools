@@ -77,8 +77,12 @@ Copyright (c) 2008-2014 Chris Eppstein
 Released under the MIT License.
 Compass is charityware.
 Please make a tax deductable donation for a worthy cause: http://umdf.org/compass
-
 ```
+5.安装`Browsersync`
+```cmd
+npm install -g browser-sync
+```
+
 #### 常用工具
 > * [WebStrom](https://www.jetbrains.com/webstorm/) 推荐
 > * [vs code](http://www.vscode.org/) 推荐
