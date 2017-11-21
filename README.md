@@ -1,12 +1,10 @@
 # 个人前端工程师开发工具记录
-
-
 ------
 [github地址](https://github.com/yyman001/web_tools)
 我们前端,每个人都有自己的开发工作环境,工具等,所以我写了这一篇文章,为自己方便把自己常用的**`前端工具`**记录下来,以便到时候在新的电脑上可以快速搭建自己熟悉的工作环境和使用自己熟悉的工具,同时可能也会对你有少少的帮助吧!
 
-前端环境软件安装
-> *  [node.js][1]  很多东西都需要它
+### 前端环境需要的软件
+> *  [node][1]  很多东西都需要它
 > *  [npm][2] , [cnpm][3] , [spm][4] 安装可以更换淘宝的安装包地址([淘宝镜像][5])
 > *  [Ruby][6](git依赖) , [msysgit][7] / [TortoiseGit][8] / [SourceTree][9][win7以上]
 > *  [git-ssh 配置和使用](https://segmentfault.com/a/1190000002645623) [coding](https://coding.net/help/doc/git/ssh-key.html)
@@ -15,19 +13,80 @@
 > * [sass文件编译方案](https://github.com/yyman001/any_question/issues/10) 
 > * `git`还有另外一个工具(在xp,win7上可用还是图形的哦,还有文章) [点我][15]
 
-安装顺序
-先安装`node` --> `npm ` --> `gulp`
-[使用 gulp 构建工程][16]
-先安装`ruby` --> `git`,`sass`,`compass`
-[window 安装 sass compass 记录][17]
+#### 安装顺序
 
+1.安装`node`,安装完成就会有 `npm ` 环境
 
-Sublime Text 3 代码片段插件
-https://packagecontrol.io/packages/JavaScript%20Completions
+2.设置淘宝镜像
+```js
+#临时使用
+npm --registry https://registry.npm.taobao.org install express
+#持久使用（推荐）
+npm config set registry https://registry.npm.taobao.org
+#通过cnpm使用（推荐）
+npm install -g cnpm --registry=https://registry.npm.taobao.org
+```
+3.安装`gulp` [使用 gulp 构建工程][16]
+```js
+npm i -g gulp
+```
+
+4.安装`ruby`,`（win7-8,win10选择 2.0以上的版本）` [window 安装 sass compass 记录][17]
+
+安装注意:`全部打钩`,安装在哪里都可以 [根据需求,一般默认C盘]，安装完毕, 重启 `cmd` , 输入 `gem` 命令
+```cmd
+如果提示"RubyGems is a sophisticated package manager for Ruby. This is a basic help message containing pointers to more information. ",即安装成功.
+```
+4.1更换淘宝镜像，有代理可以跳过这步骤
+```cmd
+#删除默认
+gem sources --remove https://rubygems.org/
+#添加镜像
+gem sources --add https://gems.ruby-china.org/
+#or
+gem sources --add http://gems.ruby-china.org/
+
+#winodws 添加会因为SSL证书问题出错
+Error fetching https://gems.ruby-china.org/:
+SSL_connect returned=1 errno=0 state=SSLv2/v3 read server hello A: sslv3 alert handshake failure (https://gems-ruby-china.b0.aicdn.com/specs.4.8.gz)
+#解决办法？FUCK,翻墙吧or洗洗睡
+#查看列表
+gem sources -l
+#正常情况会输入如下信息
+*** CURRENT SOURCES ***
+https://gems.ruby-china.org/
+# 请确保只有 gems.ruby-china.org
+
+```
+4.2 安装sass
+```cmd
+gem install sass
+#是否安装成功
+sass -v
+#输出信息
+Sass 3.4.9 (Selective Steve)
+```
+4.3 安装`compass`
+```cmd
+gem install compass
+#是否安装成功
+compass -v
+#输出信息
+Compass 1.0.1 (Polaris)
+Copyright (c) 2008-2014 Chris Eppstein
+Released under the MIT License.
+Compass is charityware.
+Please make a tax deductable donation for a worthy cause: http://umdf.org/compass
+
+```
+#### 常用工具
+> * [WebStrom](https://www.jetbrains.com/webstorm/) 推荐
+> * [vs code](http://www.vscode.org/) 推荐
+> * [ATOM](http://www.atom.io)
 
 尝试工作流工具/手架
-> * [tmt-workflow](https://github.com/Tencent/tmt-workflow)
-> * [WeFlow](https://weflow.io/) tmt-workflow的桌面版
+> * [tmt-workflow](https://github.com/Tencent/tmt-workflow) 感觉不好用
+> * [WeFlow](https://weflow.io/) tmt-workflow的桌面版 ，也感觉不好用
 > * [iview](https://www.iviewui.com/cli) iview ui自己的手架开发工具
 > * [vue-cli](https://github.com/vuejs/vue-cli/) vue spa 方式的手架
 
@@ -36,8 +95,7 @@ https://packagecontrol.io/packages/JavaScript%20Completions
 
 > * [jsinspect 重构,检测相似的代码片](https://github.com/danielstjules/jsinspect)
 > * [Easy Moc](https://www.easy-mock.com/) 模拟数据最好方案,提供的功能非常强大
-> * [WebStrom](https://www.jetbrains.com/webstorm/) 我个人比较喜欢这个软件,功能非常强大 ,[sublime_text][20]([文章介绍][21]),[HBuilder][22]
-> * [vs code](http://www.vscode.org/) 和 [ATOM](http://www.atom.io)
+> * [sublime_text][20]([文章介绍][21]),[HBuilder][22],[Sublime Text 3 代码片段插件](https://packagecontrol.io/packages/JavaScript%20Completions)
 > * [Shadowsocks 科学上网 带有一个免费账号 https://github.com/yyman001/software]   (https://github.com/shadowsocks/shadowsocks-windows)
 > * [Beyond Compare 4](http://www.cr173.com/soft/20948.html) 文件对比
 > * [cmder(类似cmd的命令提示符,有自带git版本)][23]  [配置教程][24]
