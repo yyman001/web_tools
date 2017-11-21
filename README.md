@@ -31,6 +31,11 @@ npm install -g cnpm --registry=https://registry.npm.taobao.org
 npm i -g gulp
 ```
 
+3.1.安装`Browsersync`
+```cmd
+npm install -g browser-sync
+```
+
 4.安装`ruby`,`（win7-8,win10选择 2.0以上的版本）` [window 安装 sass compass 记录][17]
 
 安装注意:`全部打钩`,安装在哪里都可以 [根据需求,一般默认C盘]，安装完毕, 重启 `cmd` , 输入 `gem` 命令
@@ -78,10 +83,7 @@ Released under the MIT License.
 Compass is charityware.
 Please make a tax deductable donation for a worthy cause: http://umdf.org/compass
 ```
-5.安装`Browsersync`
-```cmd
-npm install -g browser-sync
-```
+
 
 #### 常用工具
 > * [WebStrom](https://www.jetbrains.com/webstorm/) 推荐
