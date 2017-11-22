@@ -89,10 +89,13 @@ Please make a tax deductable donation for a worthy cause: http://umdf.org/compas
 ```
 
 
-#### 常用工具
-> * [WebStrom](https://www.jetbrains.com/webstorm/) 推荐 [配置](#WebStorm配置)
-> * [vs code](http://www.vscode.org/) 推荐
+#### 编辑器IDE
+> * [WebStrom](https://www.jetbrains.com/webstorm/) `推荐` [配置](#WebStorm%E9%85%8D%E7%BD%AE)
+> * [vs code](http://www.vscode.org/) `推荐` [配置](#user-content-VsCode配置)
 > * [ATOM](http://www.atom.io)
+> * [sublime_text][20]([文章介绍][21])
+> * [HBuilder][22]
+
 
 尝试工作流工具/手架
 > * [tmt-workflow](https://github.com/Tencent/tmt-workflow) 感觉不好用
@@ -105,7 +108,6 @@ Please make a tax deductable donation for a worthy cause: http://umdf.org/compas
 
 > * [jsinspect 重构,检测相似的代码片](https://github.com/danielstjules/jsinspect)
 > * [Easy Moc](https://www.easy-mock.com/) 模拟数据最好方案,提供的功能非常强大
-> * [sublime_text][20]([文章介绍][21]),[HBuilder][22],[Sublime Text 3 代码片段插件](https://packagecontrol.io/packages/JavaScript%20Completions)
 > * [Shadowsocks 科学上网 带有一个免费账号 https://github.com/yyman001/software]   (https://github.com/shadowsocks/shadowsocks-windows)
 > * [Beyond Compare 4](http://www.cr173.com/soft/20948.html) 文件对比
 > * [cmder(类似cmd的命令提示符,有自带git版本)][23]  [配置教程][24]
@@ -267,9 +269,13 @@ gulp常用插件 整理了在自己工作当中常用的一些gulp 插件
 - [在WebStorm中添加Vue.js单文件组件的高亮及语法支持](http://www.itdadao.com/articles/c15a743377p0.html)
 - [在webstorm中配置sass的自动编译](http://jinyanhuan.github.io/2015/04/03/sass-in-webstorm/)
 
-#### VsCode 配置
+#### VsCode配置
 - [Visual Studio Code 最好的功能、插件和设置](http://www.css88.com/archives/8144)
 - [VS Code折腾记](http://blog.csdn.net/crper/article/details/55509477)
+
+#### Sublime Text 3配置
+- [Sublime Text 3 代码片段插件](https://packagecontrol.io/packages/JavaScript%20Completions)
+
 ------
 
 
