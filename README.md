@@ -1,9 +1,9 @@
 # 个人前端工程师开发工具记录
-------
+
 [github地址](https://github.com/yyman001/web_tools)
 我们前端,每个人都有自己的开发工作环境,工具等,所以我写了这一篇文章,为自己方便把自己常用的**`前端工具`**记录下来,以便到时候在新的电脑上可以快速搭建自己熟悉的工作环境和使用自己熟悉的工具,同时可能也会对你有少少的帮助吧!
 
-### 前端环境需要的软件
+## 前端环境需要的软件
 > *  [node][1]  很多东西都需要它
 > *  [npm][2] , [cnpm][3] , [spm][4] 安装可以更换淘宝的安装包地址([淘宝镜像][5])
 > *  [Ruby][6](git依赖) , [msysgit][7] / [TortoiseGit][8] / [SourceTree][9][win7以上]
@@ -13,7 +13,7 @@
 > * [sass文件编译方案](https://github.com/yyman001/any_question/issues/10) 
 > * `git`还有另外一个工具(在xp,win7上可用还是图形的哦,还有文章) [点我][15]
 
-#### 安装顺序
+### 安装顺序
 
 1.安装`node`,安装完成就会有 `npm ` 环境
 
@@ -89,7 +89,7 @@ Please make a tax deductable donation for a worthy cause: http://umdf.org/compas
 ```
 
 
-#### 编辑器IDE
+## 编辑器IDE
 > * [WebStrom](https://www.jetbrains.com/webstorm/) `推荐` [配置在底部](#webstorm配置)
 > * [vs code](http://www.vscode.org/) `推荐` [配置在底部](#user-content-vscode%E9%85%8D%E7%BD%AE)
 > * [ATOM](http://www.atom.io)
@@ -97,15 +97,14 @@ Please make a tax deductable donation for a worthy cause: http://umdf.org/compas
 > * [HBuilder][22]
 
 
-尝试工作流工具/手架
+## 尝试工作流工具/手架
 > * [tmt-workflow](https://github.com/Tencent/tmt-workflow) 感觉不好用
 > * [WeFlow](https://weflow.io/) tmt-workflow的桌面版 ，也感觉不好用
 > * [iview](https://www.iviewui.com/cli) iview ui自己的手架开发工具
 > * [vue-cli](https://github.com/vuejs/vue-cli/) vue spa 方式的手架
 
 
-常用工具列表：
-
+## 常用工具列表：
 > * [jsinspect 重构,检测相似的代码片](https://github.com/danielstjules/jsinspect)
 > * [Easy Moc](https://www.easy-mock.com/) 模拟数据最好方案,提供的功能非常强大
 > * [Shadowsocks 科学上网 带有一个免费账号 https://github.com/yyman001/software]   (https://github.com/shadowsocks/shadowsocks-windows)
@@ -146,7 +145,7 @@ Please make a tax deductable donation for a worthy cause: http://umdf.org/compas
 > * [雪碧图合并 Cyotek Spriter ]
 > * [雪碧图合并 TexturePackerGUI - 这个厉害点,支持生成雪碧图后的坐标值文件]
 
-页面性能分析工具(比较重要就不分类,直接一个大类)
+## 页面性能分析工具 
 > * [gtmetrix 网站性能分析 - 推荐][38] 不想用插件工具就直接访问网页吧
 > * [WebPagetest][39] 一款非常优秀的网页前端性能测试工具 [国外在线地址][40] [国内阿里在线地址][41]
 > * 谷歌插件 [PageSpeed][42] (页面性能检测优化 - 我自己测试卡到一半?我浏览器逗比?)
@@ -155,7 +154,7 @@ Please make a tax deductable donation for a worthy cause: http://umdf.org/compas
 > * [web应用性能检测][44]-百度只支持移动端页面
 > * [性能检测工具Tracker.js][45] - 他的谷歌插件, `WEB前端助手(FeHelper)`
 
-火狐浏览器插件
+### 火狐浏览器插件
 > * Firebug
 > * YSlow 性能检测
 > * JSONView 在页面查看那json数据
@@ -167,11 +166,9 @@ Please make a tax deductable donation for a worthy cause: http://umdf.org/compas
 > * NoScript 控制页面和浏览器js
 > * [FireGestures][46] 用鼠标手势命令
 > * [Adblock Edge][47] 广告过滤
-> * webDeveloper1.2.2-(zh-cn) 中文版,[点我][48]
+> * webDeveloper1.2.2-(zh-cn) 中文版,[点我][48] （除了最后一个网上可能找不到中文版）
 
-除了最后一个网上可能找不到中文版
-[Google 镜像站搜集](https://github.com/sxyx2008/DevArticles/issues/99)
-谷歌浏览器插件 --用到谷歌插件其实很少(其实我自己用的蛮多),为了方便,因为谷歌插件下载很多问题,我直接发到网盘,有需要的可以自己下载(360,猎豹应用市场也有好多应用)
+### 谷歌浏览器插件
 > * [Sight](https://chrome.google.com/webstore/detail/sight/epmaefhielclhlnmjofcdapbeepkmggh) 通过各种主题和字体选项，Sight将网站的源代码以更为视觉舒适的形式强调。
 > * [海淘访问助手](http://www.haitaojiasu.pw/) -免费翻墙谷歌插件-强烈推荐
 > * [octotree ](https://github.com/buunguyen/octotree) 看github的时候生成项目tree 推荐
@@ -198,8 +195,7 @@ Please make a tax deductable donation for a worthy cause: http://umdf.org/compas
 > * Word Count 是一款用来统计选中网页的字数，支持中文的扩展。
 > * Chrono下载管理器(https://chrome.google.com/webstore/detail/chrono-download-manager/mciiogijehkdemklbdcbfkefimifhecn)
 
-
-其他软件工具
+### 其他软件工具
 > * [Flux][59] 调整屏幕亮度,暖色调
 > * [ADSafe][60] 过滤广告
 > * [Everything][61] 快速查询
@@ -209,7 +205,7 @@ Please make a tax deductable donation for a worthy cause: http://umdf.org/compas
 > * [有道云笔记][65] 协作同步开发
 > * Proxy SwitchySharp 代理工具,翻墙用的,需要自己找账号信息填写哦
 
-其他一些网上工具
+### 其他一些网上工具
 > * [使用GUI快速创建SVG path](http://anthonydugois.com/svg-path-builder/)
 > * [把CSS代码转成SASS的应用](http://css2sass.herokuapp.com/)
 > * [resizr 测试  CSS media queries 的轻量级应用-需要线上地址,没有线上地址,可以搞个coding-git](http://resizr.co/)
@@ -225,8 +221,9 @@ Please make a tax deductable donation for a worthy cause: http://umdf.org/compas
 > * [CSS3/HTML5/SVG 兼容性查询表][75]
 > * [WhatTheFont-字体查询1][76] [求字体网-字体查询2][77] [What Font is-字体查询3][78]
 > * [运同步多人办公](https://yiqixie.com/)
+> * [Google 镜像站搜集](https://github.com/sxyx2008/DevArticles/issues/99)
 
-gulp常用插件 整理了在自己工作当中常用的一些gulp 插件
+### gulp常用插件
 > * 编译Sass (gulp-ruby-sass || gulp-sass)
 > * 编译Map文件          (gulp-sourcemaps)
 > * 自动添加css前缀            （gulp-autoprefixer）
@@ -252,7 +249,7 @@ gulp常用插件 整理了在自己工作当中常用的一些gulp 插件
 > * [提取html标记内容合并到指定位置 gulp-html-merge](https://github.com/yyman001/gulp-html-merge)
 > * 压缩html ([gulp-minify-html][83])
 
-帮助文档
+### 帮助文档
 > * [css手册][84] 在线(里面可以下载,感谢作者:飘零雾雨)
 > * [jQuery手册][85] ，　[其他版本][86]
 > * [Zepto手册][87]
@@ -264,27 +261,24 @@ gulp常用插件 整理了在自己工作当中常用的一些gulp 插件
 > * [avalon.js](http://avalonjs.coding.me/)
 > * [其他在线手册][92] 自己看吧,应该有的都有了
 
-## WebStorm配置
+### WebStorm配置
 - [在 WebStorm/PhpStorm 中开启对 Vue.js 的完美支持](http://lightcss.com/get-vuejs-support-in-webstorm-and-phpstorm/)
 - [在WebStorm中添加Vue.js单文件组件的高亮及语法支持](http://www.itdadao.com/articles/c15a743377p0.html)
 - [在webstorm中配置sass的自动编译](http://jinyanhuan.github.io/2015/04/03/sass-in-webstorm/)
 
-## VsCode配置
+### VsCode配置
 - [Visual Studio Code 最好的功能、插件和设置](http://www.css88.com/archives/8144)
 - [VS Code折腾记](http://blog.csdn.net/crper/article/details/55509477)
 
-## Sublime Text 3配置
+### Sublime Text 3配置
 - [Sublime Text 3 代码片段插件](https://packagecontrol.io/packages/JavaScript%20Completions)
-
-------
-
 
 
 再一次感谢您花费时间阅读这篇文章,如果你有更好的工具,可以给我留言,其他资料还在整理当中,感谢你的阅读!
 
 作者 [@黑色技术][96]
 创建时间: 2015 年 3月 15日
-更新时间: 2017 年 7月 4日
+更新时间: 2017 年 11月 22日
 
 
 
