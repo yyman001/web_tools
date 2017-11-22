@@ -90,8 +90,8 @@ Please make a tax deductable donation for a worthy cause: http://umdf.org/compas
 
 
 #### 编辑器IDE
-> * [WebStrom](https://www.jetbrains.com/webstorm/) `推荐` [配置](#WebStorm%E9%85%8D%E7%BD%AE)
-> * [vs code](http://www.vscode.org/) `推荐` [配置](#user-content-VsCode配置)
+> * [WebStrom](https://www.jetbrains.com/webstorm/) `推荐` [配置](#webstorm配置E)
+> * [vs code](http://www.vscode.org/) `推荐` [配置](#user-content-#vscode配置)
 > * [ATOM](http://www.atom.io)
 > * [sublime_text][20]([文章介绍][21])
 > * [HBuilder][22]
