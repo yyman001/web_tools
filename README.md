@@ -264,16 +264,16 @@ gulp常用插件 整理了在自己工作当中常用的一些gulp 插件
 > * [avalon.js](http://avalonjs.coding.me/)
 > * [其他在线手册][92] 自己看吧,应该有的都有了
 
-#### WebStorm配置
+## WebStorm配置
 - [在 WebStorm/PhpStorm 中开启对 Vue.js 的完美支持](http://lightcss.com/get-vuejs-support-in-webstorm-and-phpstorm/)
 - [在WebStorm中添加Vue.js单文件组件的高亮及语法支持](http://www.itdadao.com/articles/c15a743377p0.html)
 - [在webstorm中配置sass的自动编译](http://jinyanhuan.github.io/2015/04/03/sass-in-webstorm/)
 
-#### VsCode配置
+## VsCode配置
 - [Visual Studio Code 最好的功能、插件和设置](http://www.css88.com/archives/8144)
 - [VS Code折腾记](http://blog.csdn.net/crper/article/details/55509477)
 
-#### Sublime Text 3配置
+## Sublime Text 3配置
 - [Sublime Text 3 代码片段插件](https://packagecontrol.io/packages/JavaScript%20Completions)
 
 ------
