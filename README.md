@@ -4,14 +4,14 @@
 我们前端,每个人都有自己的开发工作环境,工具等,所以我写了这一篇文章,为自己方便把自己常用的**`前端工具`**记录下来,以便到时候在新的电脑上可以快速搭建自己熟悉的工作环境和使用自己熟悉的工具,同时可能也会对你有少少的帮助吧!
 
 ## 前端环境需要的软件
-> *  [node][1]  很多东西都需要它
-> *  [npm][2] , [cnpm][3] , [spm][4] 安装可以更换淘宝的安装包地址([淘宝镜像][5])
-> *  [Ruby][6](git依赖) , [msysgit][7] / [TortoiseGit][8] / [SourceTree][9][win7以上]
-> *  [git-ssh 配置和使用](https://segmentfault.com/a/1190000002645623) [coding](https://coding.net/help/doc/git/ssh-key.html)
-> *  [gulp][10] 下面会列出常用插件 , [ F.I.S (百度前端工具框架)][11]
-> *  [sass][12] [教程][13]/ [less][14]
-> * [sass文件编译方案](https://github.com/yyman001/any_question/issues/10) 
-> * `git`还有另外一个工具(在xp,win7上可用还是图形的哦,还有文章) [点我][15]
+- [node][1] 很多东西都需要它
+- [npm][2] , [cnpm][3] , [spm][4] 安装可以更换淘宝的安装包地址([淘宝镜像][5])
+- [Ruby][6](git依赖) , [msysgit][7] / [TortoiseGit][8] / [SourceTree][9][win7以上]
+- [git-ssh 配置和使用](https://segmentfault.com/a/1190000002645623) [coding](https://coding.net/help/doc/git/ssh-key.html)
+- [gulp][10] 下面会列出常用插件 , [ F.I.S (百度前端工具框架)][11]
+- [sass][12] [教程][13]/ [less][14]
+- [sass文件编译方案](https://github.com/yyman001/any_question/issues/10) 
+- `git`还有另外一个工具(在xp,win7上可用还是图形的哦,还有文章) [点我][15]
 
 ### 安装顺序
 
@@ -90,176 +90,176 @@ Please make a tax deductable donation for a worthy cause: http://umdf.org/compas
 
 
 ## 编辑器IDE
-> * [WebStrom](https://www.jetbrains.com/webstorm/) `推荐` [配置在底部](#webstorm配置)
-> * [vs code](http://www.vscode.org/) `推荐` [配置在底部](#user-content-vscode%E9%85%8D%E7%BD%AE)
-> * [ATOM](http://www.atom.io)
-> * [sublime_text][20]([文章介绍][21])
-> * [HBuilder][22]
+- [WebStrom](https://www.jetbrains.com/webstorm/) `推荐` [配置在底部](#webstorm配置)
+- [vs code](http://www.vscode.org/) `推荐` [配置在底部](#user-content-vscode%E9%85%8D%E7%BD%AE)
+- [ATOM](http://www.atom.io)
+- [sublime_text][20]([文章介绍][21])
+- [HBuilder][22]
 
 
 ## 尝试工作流工具/手架
-> * [tmt-workflow](https://github.com/Tencent/tmt-workflow) 感觉不好用
-> * [WeFlow](https://weflow.io/) tmt-workflow的桌面版 ，也感觉不好用
-> * [iview](https://www.iviewui.com/cli) iview ui自己的手架开发工具
-> * [vue-cli](https://github.com/vuejs/vue-cli/) vue spa 方式的手架
+- [tmt-workflow](https://github.com/Tencent/tmt-workflow) 感觉不好用
+- [WeFlow](https://weflow.io/) tmt-workflow的桌面版 ，也感觉不好用
+- [iview](https://www.iviewui.com/cli) iview ui自己的手架开发工具
+- [vue-cli](https://github.com/vuejs/vue-cli/) vue spa 方式的手架
 
 
 ## 常用工具列表：
-> * [jsinspect 重构,检测相似的代码片](https://github.com/danielstjules/jsinspect)
-> * [Easy Moc](https://www.easy-mock.com/) 模拟数据最好方案,提供的功能非常强大
-> * [Shadowsocks 科学上网 带有一个免费账号 https://github.com/yyman001/software]   (https://github.com/shadowsocks/shadowsocks-windows)
-> * [Beyond Compare 4](http://www.cr173.com/soft/20948.html) 文件对比
-> * [cmder(类似cmd的命令提示符,有自带git版本)][23]  [配置教程][24]
-> * [koala考拉][25](Less、Sass、Compass、CoffeeScript编译) ----免费
-> * [WeChatPlugin-MacOS 微信小助手-调试开发](https://github.com/TKkk-iOSer/WeChatPlugin-MacOS)
-> * [Mark 马克鳗][26] (设计图测量)
-> * [PxCook 像素大厨 智能标注绝对可以解放双手了，强烈推荐。](http://www.fancynode.com.cn/pxcook)
-> * [Assistor PS]() \(切图工具\)
-> * [小苹果服务器][27](手机调试专用win7以上)
-> * [brower-sync 自动刷新页面-多端同步,支持gulp](http://www.browsersync.cn/)
-> * [F5][28] 自动刷新浏览器
-> * [Notepad++][29] 不解释
-> * Photoshop CS4/CS6 不解释,PS插件?建议去 [设计优][30]
-> * 计算器 不解释
-> * 右键助手1.0 ([我自己开发的,详细点这里][31]) ,彗星小助手（取色） , W3Cfuns前端开发工具箱 ([到百度分享查看下载地址][32])
-> * AdobeDreamweaverCS4 写表格,热点图
-> * [CSS Sprites 样式生成工具][33]
-> * WampServer 搭建PHP环境服务器
-> * MyWebServer 迷你型服务器
-> * FlashFXP (ftp上传工具)
-> * Regex Match Tracer 2.1 (正则工具)
-> * [SETUNA2][34] (图片裁剪对比)
-> * [Markdown Pad 2][35] (写Markdown格式文档必备的软件,我文章是用在线版)
-> * [Winmerge][36] 开源的文件比较工具(如果你不能使用Beyond Compare)
-> * [Expresso][37]是一个.NET版本的正则表达式编辑器。可以测试你的正则表达式。
-> * [DocBlockr](http://pythonhackers.com/os/spadgos/sublime-jsdocs) Sublime Text 2/3-注释生成插件
-> * [JSDOC 注释文档生成工具](http://www.html-js.com/article/JSDOC-introduction-JSDOC-entry)
-> * [如此简单的到达 PNG 无损压缩的极限](http://nullice.com/limitPNG/)
-> * [APNG Software 转APNG软件](http://littlesvr.ca/apng/)
-> * [iSparta 图片压缩](http://isparta.github.io/)
-> * [limitPNG 图片压缩](http://nullice.com/limitPNG/)
-> * [智图客户端](https://zhitu.isux.us/index.php/preview/download)
-> * [phpStudy php搭建环境,包含多个版本随便切换](http://www.phpstudy.net/a.php/211.html)
-> * [字体解决方案1-字蛛是一个中文字体压缩器,让网页自由引入中文字体成为可能](http://font-spider.org/)
-> * [字体解决方案2-Fontmin,第一个纯 JavaScript 字体子集化方案](http://ecomfe.github.io/fontmin/)
-> * [雪碧图合并 Cyotek Spriter ]
-> * [雪碧图合并 TexturePackerGUI - 这个厉害点,支持生成雪碧图后的坐标值文件]
+- [jsinspect 重构,检测相似的代码片](https://github.com/danielstjules/jsinspect)
+- [Easy Moc](https://www.easy-mock.com/) 模拟数据最好方案,提供的功能非常强大
+- [Shadowsocks 科学上网 带有一个免费账号 https://github.com/yyman001/software]   (https://github.com/shadowsocks/shadowsocks-windows)
+- [Beyond Compare 4](http://www.cr173.com/soft/20948.html) 文件对比
+- [cmder(类似cmd的命令提示符,有自带git版本)][23]  [配置教程][24]
+- [koala考拉][25](Less、Sass、Compass、CoffeeScript编译) ----免费
+- [WeChatPlugin-MacOS 微信小助手-调试开发](https://github.com/TKkk-iOSer/WeChatPlugin-MacOS)
+- [Mark 马克鳗][26] (设计图测量)
+- [PxCook 像素大厨 智能标注绝对可以解放双手了，强烈推荐。](http://www.fancynode.com.cn/pxcook)
+- [Assistor PS]() \(切图工具\)
+- [小苹果服务器][27](手机调试专用win7以上)
+- [brower-sync 自动刷新页面-多端同步,支持gulp](http://www.browsersync.cn/)
+- [F5][28] 自动刷新浏览器
+- [Notepad++][29] 不解释
+- Photoshop CS4/CS6 不解释,PS插件?建议去 [设计优][30]
+- 计算器 不解释
+- 右键助手1.0 ([我自己开发的,详细点这里][31]) ,彗星小助手（取色） , W3Cfuns前端开发工具箱 ([到百度分享查看下载地址][32])
+- AdobeDreamweaverCS4 写表格,热点图
+- [CSS Sprites 样式生成工具][33]
+- WampServer 搭建PHP环境服务器
+- MyWebServer 迷你型服务器
+- FlashFXP (ftp上传工具)
+- Regex Match Tracer 2.1 (正则工具)
+- [SETUNA2][34] (图片裁剪对比)
+- [Markdown Pad 2][35] (写Markdown格式文档必备的软件,我文章是用在线版)
+- [Winmerge][36] 开源的文件比较工具(如果你不能使用Beyond Compare)
+- [Expresso][37]是一个.NET版本的正则表达式编辑器。可以测试你的正则表达式。
+- [DocBlockr](http://pythonhackers.com/os/spadgos/sublime-jsdocs) Sublime Text 2/3-注释生成插件
+- [JSDOC 注释文档生成工具](http://www.html-js.com/article/JSDOC-introduction-JSDOC-entry)
+- [如此简单的到达 PNG 无损压缩的极限](http://nullice.com/limitPNG/)
+- [APNG Software 转APNG软件](http://littlesvr.ca/apng/)
+- [iSparta 图片压缩](http://isparta.github.io/)
+- [limitPNG 图片压缩](http://nullice.com/limitPNG/)
+- [智图客户端](https://zhitu.isux.us/index.php/preview/download)
+- [phpStudy php搭建环境,包含多个版本随便切换](http://www.phpstudy.net/a.php/211.html)
+- [字体解决方案1-字蛛是一个中文字体压缩器,让网页自由引入中文字体成为可能](http://font-spider.org/)
+- [字体解决方案2-Fontmin,第一个纯 JavaScript 字体子集化方案](http://ecomfe.github.io/fontmin/)
+- [雪碧图合并 Cyotek Spriter ]
+- [雪碧图合并 TexturePackerGUI - 这个厉害点,支持生成雪碧图后的坐标值文件]
 
 ## 页面性能分析工具 
-> * [gtmetrix 网站性能分析 - 推荐][38] 不想用插件工具就直接访问网页吧
-> * [WebPagetest][39] 一款非常优秀的网页前端性能测试工具 [国外在线地址][40] [国内阿里在线地址][41]
-> * 谷歌插件 [PageSpeed][42] (页面性能检测优化 - 我自己测试卡到一半?我浏览器逗比?)
-> * 谷歌插件 [Google Web Tracing Framework][43] (持移动、PC，性能分析的神器,又一个鸡文,反正我是不懂怎么用~)
-> * 火狐请参考 `YSlow`
-> * [web应用性能检测][44]-百度只支持移动端页面
-> * [性能检测工具Tracker.js][45] - 他的谷歌插件, `WEB前端助手(FeHelper)`
+- [gtmetrix 网站性能分析 - 推荐][38] 不想用插件工具就直接访问网页吧
+- [WebPagetest][39] 一款非常优秀的网页前端性能测试工具 [国外在线地址][40] [国内阿里在线地址][41]
+- 谷歌插件 [PageSpeed][42] (页面性能检测优化 - 我自己测试卡到一半?我浏览器逗比?)
+- 谷歌插件 [Google Web Tracing Framework][43] (持移动、PC，性能分析的神器,又一个鸡文,反正我是不懂怎么用~)
+- 火狐请参考 `YSlow`
+- [web应用性能检测][44]-百度只支持移动端页面
+- [性能检测工具Tracker.js][45] - 他的谷歌插件, `WEB前端助手(FeHelper)`
 
 ### 火狐浏览器插件
-> * Firebug
-> * YSlow 性能检测
-> * JSONView 在页面查看那json数据
-> * CSSUsage 检测无效css
-> * Dust-Me Selectors 检测页面css沉余
-> * FireQuery jq语法高亮
-> * FireRainbow js语法高亮
-> * HtmlValidator html文档标准检测
-> * NoScript 控制页面和浏览器js
-> * [FireGestures][46] 用鼠标手势命令
-> * [Adblock Edge][47] 广告过滤
-> * webDeveloper1.2.2-(zh-cn) 中文版,[点我][48] （除了最后一个网上可能找不到中文版）
+- Firebug
+- YSlow 性能检测
+- JSONView 在页面查看那json数据
+- CSSUsage 检测无效css
+- Dust-Me Selectors 检测页面css沉余
+- FireQuery jq语法高亮
+- FireRainbow js语法高亮
+- HtmlValidator html文档标准检测
+- NoScript 控制页面和浏览器js
+- [FireGestures][46] 用鼠标手势命令
+- [Adblock Edge][47] 广告过滤
+- webDeveloper1.2.2-(zh-cn) 中文版,[点我][48] （除了最后一个网上可能找不到中文版）
 
 ### 谷歌浏览器插件
-> * [Sight](https://chrome.google.com/webstore/detail/sight/epmaefhielclhlnmjofcdapbeepkmggh) 通过各种主题和字体选项，Sight将网站的源代码以更为视觉舒适的形式强调。
-> * [海淘访问助手](http://www.haitaojiasu.pw/) -免费翻墙谷歌插件-强烈推荐
-> * [octotree ](https://github.com/buunguyen/octotree) 看github的时候生成项目tree 推荐
-> * [Awesome Autocomplete for GitHub](https://chrome.google.com/webstore/detail/awesome-autocomplete-for/djkfdjpoelphhdclfjhnffmnlnoknfnd)  - github搜索异步查询结果
-> * [Quick CSS 快速在 Chrome 开发环境检测 CSS 代码的规范性](http://ued.qunar.com/mobile/devtools/css-extensions/)
-> * [AlloyDesigner ](http://alloyteam.github.io/AlloyDesigner/) 嵌入式开发插件-详情自己看连接
-> * [Web Developer][49] (居然被我找到谷歌版的,不过是英文的,不错了)
-> * [Window Resizer][50] (允许你快速调整浏览器窗口分辨率)
-> * [CSSViewer][51] (浮动面板简单显示CSS属性)
-> * [Wappalyze][52] (分析网站使用什么技术,优化的时候可以看人家网站使用什么技术)
-> * [IE Tab][53] (直接在Chrome中使用IE渲染引擎模仿IE,IE6、IE7、IE8和IE9,扩展目前仅适用于Windows系统,感觉有点不靠谱)
-> * [Clear Cache][54](能让你从工具栏中清除缓存)
-> * [Image Downloader][55] (批量下载图片)
-> * 谷歌加速插件 替换一些需要翻墙才能链接的js替换为国内链接
-> * JetBrains IDE Suport (配合WS 在浏览器同步刷新,似乎在谷歌高版本已经无效,如果你不使用ws,可以配合gulp的插件,也可以实现同步更新)
-> * [ReRes][56] 开发的时候替换测试路径为本地,实际是上线后的地址
-> * Enable Copy 去除右键限制
-> * JSON View 查看json格式数据
-> * WEB前端助手(FeHelper)_v5.8
-> * 有道云笔记网页剪报 (保存页面到有道笔记本)
-> * Firebug Lite 谷歌用火狐插件(哈哈,开发者用火狐提供的ie火狐js搞的吧)
-> * [网址转二维码][57] (手机测试中有用,扫描就打开测试地址了)
-> * ScriptSafe汉化版 (可以控制页面的js脚本)
-> * Word Count 是一款用来统计选中网页的字数，支持中文的扩展。
-> * Chrono下载管理器(https://chrome.google.com/webstore/detail/chrono-download-manager/mciiogijehkdemklbdcbfkefimifhecn)
+- [Sight](https://chrome.google.com/webstore/detail/sight/epmaefhielclhlnmjofcdapbeepkmggh) 通过各种主题和字体选项，Sight将网站的源代码以更为视觉舒适的形式强调。
+- [海淘访问助手](http://www.haitaojiasu.pw/) -免费翻墙谷歌插件-强烈推荐
+- [octotree ](https://github.com/buunguyen/octotree) 看github的时候生成项目tree 推荐
+- [Awesome Autocomplete for GitHub](https://chrome.google.com/webstore/detail/awesome-autocomplete-for/djkfdjpoelphhdclfjhnffmnlnoknfnd)  - github搜索异步查询结果
+- [Quick CSS 快速在 Chrome 开发环境检测 CSS 代码的规范性](http://ued.qunar.com/mobile/devtools/css-extensions/)
+- [AlloyDesigner ](http://alloyteam.github.io/AlloyDesigner/) 嵌入式开发插件-详情自己看连接
+- [Web Developer][49] (居然被我找到谷歌版的,不过是英文的,不错了)
+- [Window Resizer][50] (允许你快速调整浏览器窗口分辨率)
+- [CSSViewer][51] (浮动面板简单显示CSS属性)
+- [Wappalyze][52] (分析网站使用什么技术,优化的时候可以看人家网站使用什么技术)
+- [IE Tab][53] (直接在Chrome中使用IE渲染引擎模仿IE,IE6、IE7、IE8和IE9,扩展目前仅适用于Windows系统,感觉有点不靠谱)
+- [Clear Cache][54](能让你从工具栏中清除缓存)
+- [Image Downloader][55] (批量下载图片)
+- 谷歌加速插件 替换一些需要翻墙才能链接的js替换为国内链接
+- JetBrains IDE Suport (配合WS 在浏览器同步刷新,似乎在谷歌高版本已经无效,如果你不使用ws,可以配合gulp的插件,也可以实现同步更新)
+- [ReRes][56] 开发的时候替换测试路径为本地,实际是上线后的地址
+- Enable Copy 去除右键限制
+- JSON View 查看json格式数据
+- WEB前端助手(FeHelper)_v5.8
+- 有道云笔记网页剪报 (保存页面到有道笔记本)
+- Firebug Lite 谷歌用火狐插件(哈哈,开发者用火狐提供的ie火狐js搞的吧)
+- [网址转二维码][57] (手机测试中有用,扫描就打开测试地址了)
+- ScriptSafe汉化版 (可以控制页面的js脚本)
+- Word Count 是一款用来统计选中网页的字数，支持中文的扩展。
+- Chrono下载管理器(https://chrome.google.com/webstore/detail/chrono-download-manager/mciiogijehkdemklbdcbfkefimifhecn)
 
 ### 其他软件工具
-> * [Flux][59] 调整屏幕亮度,暖色调
-> * [ADSafe][60] 过滤广告
-> * [Everything][61] 快速查询
-> * [Wise Registry Cleaner][62] 注册表清理
-> * [Clover][63] 让你的Windows资源管理器拥有像谷歌浏览器一样好用的多标签页
-> * [360云盘][64] 同步数据文件
-> * [有道云笔记][65] 协作同步开发
-> * Proxy SwitchySharp 代理工具,翻墙用的,需要自己找账号信息填写哦
+- [Flux][59] 调整屏幕亮度,暖色调
+- [ADSafe][60] 过滤广告
+- [Everything][61] 快速查询
+- [Wise Registry Cleaner][62] 注册表清理
+- [Clover][63] 让你的Windows资源管理器拥有像谷歌浏览器一样好用的多标签页
+- [360云盘][64] 同步数据文件
+- [有道云笔记][65] 协作同步开发
+- Proxy SwitchySharp 代理工具,翻墙用的,需要自己找账号信息填写哦
 
 ### 其他一些网上工具
-> * [使用GUI快速创建SVG path](http://anthonydugois.com/svg-path-builder/)
-> * [把CSS代码转成SASS的应用](http://css2sass.herokuapp.com/)
-> * [resizr 测试  CSS media queries 的轻量级应用-需要线上地址,没有线上地址,可以搞个coding-git](http://resizr.co/)
-> * [中国开源在线工具][66]
-> * [熊猫png压缩][67]
-> * [智图(多种图片压缩)][68]
-> * [雪碧图坐标查询][69]
-> * [cssanimate动画制作工具][70]
-> * [在线切图工具][71] (最近找到的,不知道如何,欢迎大家测试)
-> * [配色方案][72](美工的工具)
-> * [在线正则regex pal][73]
-> * [正则图形显示][74]
-> * [CSS3/HTML5/SVG 兼容性查询表][75]
-> * [WhatTheFont-字体查询1][76] [求字体网-字体查询2][77] [What Font is-字体查询3][78]
-> * [运同步多人办公](https://yiqixie.com/)
-> * [Google 镜像站搜集](https://github.com/sxyx2008/DevArticles/issues/99)
+- [使用GUI快速创建SVG path](http://anthonydugois.com/svg-path-builder/)
+- [把CSS代码转成SASS的应用](http://css2sass.herokuapp.com/)
+- [resizr 测试  CSS media queries 的轻量级应用-需要线上地址,没有线上地址,可以搞个coding-git](http://resizr.co/)
+- [中国开源在线工具][66]
+- [熊猫png压缩][67]
+- [智图(多种图片压缩)][68]
+- [雪碧图坐标查询][69]
+- [cssanimate动画制作工具][70]
+- [在线切图工具][71] (最近找到的,不知道如何,欢迎大家测试)
+- [配色方案][72](美工的工具)
+- [在线正则regex pal][73]
+- [正则图形显示][74]
+- [CSS3/HTML5/SVG 兼容性查询表][75]
+- [WhatTheFont-字体查询1][76] [求字体网-字体查询2][77] [What Font is-字体查询3][78]
+- [运同步多人办公](https://yiqixie.com/)
+- [Google 镜像站搜集](https://github.com/sxyx2008/DevArticles/issues/99)
 
 ### gulp常用插件
-> * 编译Sass (gulp-ruby-sass || gulp-sass)
-> * 编译Map文件          (gulp-sourcemaps)
-> * 自动添加css前缀            （gulp-autoprefixer）
-> * 压缩css                    （gulp-minify-css）
-> * 压缩css使用的                gulp-mini-css[国产.配合清除沉余css插件后的压缩插件,跟上面的不一样哦]
-> * js代码校验                  （gulp-jshint）
-> * 合并js文件                  （gulp-concat）
-> * 压缩js代码                  （gulp-uglify）
-> * PreCSS预处理1--处理CSS优化   (cssnano)
-> * BASE64编码图片               (gulp-base64)
-> * 压缩图片                    （gulp-imagemin）
-> * 雪碧图 (gulp.spritesmith) https://github.com/twolfson/gulp.spritesmith
-> * 自动刷新页面                 （gulp-livereload）//不建议配合WS一起用(WS的自动保存,然后你懂的,但如果你不是用less或者sass开发,还是建议使用的)
-> * 图片缓存，只有图片替换了才压缩  （gulp-cache） //我也没用过
-> * 更改提醒                    （gulp-notify） //我也没用过
-> * 外链文件合并                  （gulp-htmlone）https://github.com/amfe/or.htmlone.gulp  //我也没用过
-> * 清除文件                    （del）
-> * 替换内容,需自定义范围内容,支持正则[常用于替换上线后的js,css文件路径]                    （gulp-replace）
-> * 同上,更加智能 ([gulp-rev-collector][79])
-> * 智图图片处理插件     ([gulp-imageisux][80])
-> * 将文件转成utf8编码的gulp插件([gulp-utf8-convert][81])
-> * 合并按模块引入的html文件([gulp-content-includer][82])
-> * [提取html标记内容合并到指定位置 gulp-html-merge](https://github.com/yyman001/gulp-html-merge)
-> * 压缩html ([gulp-minify-html][83])
+- 编译Sass (gulp-ruby-sass || gulp-sass)
+- 编译Map文件          (gulp-sourcemaps)
+- 自动添加css前缀            （gulp-autoprefixer）
+- 压缩css                    （gulp-minify-css）
+- 压缩css使用的                gulp-mini-css[国产.配合清除沉余css插件后的压缩插件,跟上面的不一样哦]
+- js代码校验                  （gulp-jshint）
+- 合并js文件                  （gulp-concat）
+- 压缩js代码                  （gulp-uglify）
+- PreCSS预处理1--处理CSS优化   (cssnano)
+- BASE64编码图片               (gulp-base64)
+- 压缩图片                    （gulp-imagemin）
+- 雪碧图 (gulp.spritesmith) https://github.com/twolfson/gulp.spritesmith
+- 自动刷新页面                 （gulp-livereload）//不建议配合WS一起用(WS的自动保存,然后你懂的,但如果你不是用less或者sass开发,还是建议使用的)
+- 图片缓存，只有图片替换了才压缩  （gulp-cache） //我也没用过
+- 更改提醒                    （gulp-notify） //我也没用过
+- 外链文件合并                  （gulp-htmlone）https://github.com/amfe/or.htmlone.gulp  //我也没用过
+- 清除文件                    （del）
+- 替换内容,需自定义范围内容,支持正则[常用于替换上线后的js,css文件路径]                    （gulp-replace）
+- 同上,更加智能 ([gulp-rev-collector][79])
+- 智图图片处理插件     ([gulp-imageisux][80])
+- 将文件转成utf8编码的gulp插件([gulp-utf8-convert][81])
+- 合并按模块引入的html文件([gulp-content-includer][82])
+- [提取html标记内容合并到指定位置 gulp-html-merge](https://github.com/yyman001/gulp-html-merge)
+- 压缩html ([gulp-minify-html][83])
 
 ### 帮助文档
-> * [css手册][84] 在线(里面可以下载,感谢作者:飘零雾雨)
-> * [jQuery手册][85] ，　[其他版本][86]
-> * [Zepto手册][87]
-> * [Less.js 中文文档][88]
-> * [Bootstrap 中文文档][89]
-> * [Underscore.js (1.8.2) 中文文档][90]
-> * [Backbone.js(1.1.2) API中文文档][91]
-> * [Vue.js 2.0 中文文档](https://cn.vuejs.org/v2/guide/)
-> * [avalon.js](http://avalonjs.coding.me/)
-> * [其他在线手册][92] 自己看吧,应该有的都有了
+- [css手册][84] 在线(里面可以下载,感谢作者:飘零雾雨)
+- [jQuery手册][85] ，　[其他版本][86]
+- [Zepto手册][87]
+- [Less.js 中文文档][88]
+- [Bootstrap 中文文档][89]
+- [Underscore.js (1.8.2) 中文文档][90]
+- [Backbone.js(1.1.2) API中文文档][91]
+- [Vue.js 2.0 中文文档](https://cn.vuejs.org/v2/guide/)
+- [avalon.js](http://avalonjs.coding.me/)
+- [其他在线手册][92] 自己看吧,应该有的都有了
 
 ### WebStorm配置
 - [在 WebStorm/PhpStorm 中开启对 Vue.js 的完美支持](http://lightcss.com/get-vuejs-support-in-webstorm-and-phpstorm/)
