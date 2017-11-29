@@ -144,6 +144,7 @@ Please make a tax deductable donation for a worthy cause: http://umdf.org/compas
 - [字体解决方案2-Fontmin,第一个纯 JavaScript 字体子集化方案](http://ecomfe.github.io/fontmin/)
 - [雪碧图合并 Cyotek Spriter ]
 - [雪碧图合并 TexturePackerGUI - 这个厉害点,支持生成雪碧图后的坐标值文件]
+- [gka 是一款简单的、高效的帧动画生成工具，图片处理工具,快速制作高性能帧动画解决方案](https://github.com/gkajs/gka)
 
 ## 页面性能分析工具 
 - [gtmetrix 网站性能分析 - 推荐][38] 不想用插件工具就直接访问网页吧
@@ -273,12 +274,15 @@ Please make a tax deductable donation for a worthy cause: http://umdf.org/compas
 ### Sublime Text 3配置
 - [Sublime Text 3 代码片段插件](https://packagecontrol.io/packages/JavaScript%20Completions)
 
+### webpack常用插件
+- [Webpack Monitor 使用图表显示打包后文件包含内容百分比](https://github.com/webpackmonitor/webpackmonitor)
+- [webpack进阶面板]https://github.com/FormidableLabs/webpack-dashboard
 
 再一次感谢您花费时间阅读这篇文章,如果你有更好的工具,可以给我留言,其他资料还在整理当中,感谢你的阅读!
 
 作者 [@黑色技术][96]
 创建时间: 2015 年 3月 15日
-更新时间: 2017 年 11月 22日
+更新时间: 2017 年 11月 29日
 
 
 
