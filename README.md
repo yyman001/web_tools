@@ -275,14 +275,14 @@ Please make a tax deductable donation for a worthy cause: http://umdf.org/compas
 - [Sublime Text 3 代码片段插件](https://packagecontrol.io/packages/JavaScript%20Completions)
 
 ### webpack常用插件
-- [Webpack Monitor 使用图表显示打包后文件包含内容百分比](https://github.com/webpackmonitor/webpackmonitor)
-- [webpack进阶面板]https://github.com/FormidableLabs/webpack-dashboard
+- [Webpack Monitor 使用图表显示打包后文件包含内容百分比](https://github.com/webpackmonitor/webpackmonitor) 如果页面打开一直load，请修改`node_modules\_webpack-monitor@1.0.13@webpack-monitor\build\index.html` 里面js的链接
+- [webpack进阶面板](https://github.com/FormidableLabs/webpack-dashboard)
 
 再一次感谢您花费时间阅读这篇文章,如果你有更好的工具,可以给我留言,其他资料还在整理当中,感谢你的阅读!
 
 作者 [@黑色技术][96]
 创建时间: 2015 年 3月 15日
-更新时间: 2017 年 11月 29日
+更新时间: 2017 年 11月 30日
 
 
 
