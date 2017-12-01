@@ -109,6 +109,8 @@ Please make a tax deductable donation for a worthy cause: http://umdf.org/compas
 - [Easy Moc](https://www.easy-mock.com/) 模拟数据最好方案,提供的功能非常强大
 - [Shadowsocks 科学上网 带有一个免费账号 https://github.com/yyman001/software]   (https://github.com/shadowsocks/shadowsocks-windows)
 - [Beyond Compare 4](http://www.cr173.com/soft/20948.html) 文件对比
+- [Fiddler2 数据拦截](https://www.telerik.com/fiddler) 或 360管理软件下载
+- [postman 测试请求接口](https://www.getpostman.com/)
 - [cmder(类似cmd的命令提示符,有自带git版本)][23]  [配置教程][24]
 - [koala考拉][25](Less、Sass、Compass、CoffeeScript编译) ----免费
 - [WeChatPlugin-MacOS 微信小助手-调试开发](https://github.com/TKkk-iOSer/WeChatPlugin-MacOS)
