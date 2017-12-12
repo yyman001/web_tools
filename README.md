@@ -197,6 +197,7 @@ Please make a tax deductable donation for a worthy cause: http://umdf.org/compas
 - ScriptSafe汉化版 (可以控制页面的js脚本)
 - Word Count 是一款用来统计选中网页的字数，支持中文的扩展。
 - Chrono下载管理器(https://chrome.google.com/webstore/detail/chrono-download-manager/mciiogijehkdemklbdcbfkefimifhecn)
+- [ShoeBox 雪碧图-支持多款游戏js框架](http://renderhjs.net/shoebox/)
 
 ### 其他软件工具
 - [Flux][59] 调整屏幕亮度,暖色调
@@ -279,6 +280,7 @@ Please make a tax deductable donation for a worthy cause: http://umdf.org/compas
 ### webpack常用插件
 - [Webpack Monitor 使用图表显示打包后文件包含内容百分比](https://github.com/webpackmonitor/webpackmonitor) 如果页面打开一直load，请修改`node_modules\_webpack-monitor@1.0.13@webpack-monitor\build\index.html` 里面js的链接
 - [webpack进阶面板](https://github.com/FormidableLabs/webpack-dashboard)
+- [webpack-dev-server 实时重新加载]
 
 再一次感谢您花费时间阅读这篇文章,如果你有更好的工具,可以给我留言,其他资料还在整理当中,感谢你的阅读!
 
