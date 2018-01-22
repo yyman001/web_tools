@@ -6,7 +6,7 @@
 ## 前端环境需要的软件
 - [node][1] 很多东西都需要它
 - [npm][2] , [cnpm][3] , [spm][4] 安装可以更换淘宝的安装包地址([淘宝镜像][5])
-- [Ruby][6](git依赖) , [msysgit][7] / [TortoiseGit][8] / [SourceTree][9][win7以上]
+- [Ruby][6](git依赖) , [msysgit][7] / [TortoiseGit][8] / [SourceTree][9][win7以上] / [SourceTree 证书下载](https://my.atlassian.com/products/index?sen=4337761#license_4337761)
 - [git-ssh 配置和使用](https://segmentfault.com/a/1190000002645623) [coding](https://coding.net/help/doc/git/ssh-key.html)
 - [gulp][10] 下面会列出常用插件 , [ F.I.S (百度前端工具框架)][11]
 - [sass][12] [教程][13]/ [less][14]
