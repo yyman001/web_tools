@@ -148,7 +148,7 @@ Please make a tax deductable donation for a worthy cause: http://umdf.org/compas
 - [雪碧图合并 Cyotek Spriter ]
 - [雪碧图合并 TexturePackerGUI - 这个厉害点,支持生成雪碧图后的坐标值文件]
 - [gka 是一款简单的、高效的帧动画生成工具，图片处理工具,快速制作高性能帧动画解决方案](https://github.com/gkajs/gka)
-
+- [docker GUI - Now part of the Docker Toolbox](https://github.com/docker/kitematic)
 ## 页面性能分析工具 
 - [gtmetrix 网站性能分析 - 推荐][38] 不想用插件工具就直接访问网页吧
 - [WebPagetest][39] 一款非常优秀的网页前端性能测试工具 [国外在线地址][40] [国内阿里在线地址][41]
