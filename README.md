@@ -17,27 +17,30 @@
 
 1.安装`node`,安装完成就会有 `npm ` 环境
 
-2.设置淘宝镜像
+2.设置镜像
 ```js
-#临时使用
-npm --registry https://registry.npm.taobao.org install express
+#临时指向使用
+npm --registry https://registry.npm.taobao.org
 #持久使用（推荐）
 npm config set registry https://registry.npm.taobao.org
 #通过cnpm使用（推荐）
 npm install -g cnpm --registry=https://registry.npm.taobao.org
 ```
-3.安装`gulp` [使用 gulp 构建工程][16]
-```js
-npm i -g gulp
-```
-3.1.安装`Webpack`
-```cmd
-npm i -g webpack
-```
 
-3.2.安装`Browsersync`
-```cmd
+### npm 常用工具包
+```js
+// gulp [使用 gulp 构建工程][16]
+npm i gulp 
+
+//Webpack
+npm i -g webpack
+
+//Browsersync
 npm i -g browser-sync
+
+// Debug log输出
+npm i debug
+
 ```
 
 4.安装`ruby`,`（win7-8,win10选择 2.0以上的版本）` [window 安装 sass compass 记录][17]
