@@ -107,6 +107,9 @@ Please make a tax deductable donation for a worthy cause: http://umdf.org/compas
 - [vue-cli](https://github.com/vuejs/vue-cli/) vue spa 方式的手架
 
 
+- [Amazing-Windows-Apps](https://github.com/AmazingApps/Amazing-Windows-Apps)
+
+
 ## 常用工具列表：
 - [github start收藏项目管理工具-AStral](https://app.astralapp.com/dashboard/untagged)
 - [jsinspect 重构,检测相似的代码片](https://github.com/danielstjules/jsinspect)
