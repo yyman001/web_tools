@@ -278,6 +278,7 @@ Please make a tax deductable donation for a worthy cause: http://umdf.org/compas
 - [在webstorm中配置sass的自动编译](http://jinyanhuan.github.io/2015/04/03/sass-in-webstorm/)
 
 ### VsCode配置
+- [VSCode拓展推荐（前端开发）](https://github.com/varHarrie/varharrie.github.io/issues/10)
 - [Visual Studio Code 最好的功能、插件和设置](http://www.css88.com/archives/8144)
 - [VS Code折腾记](http://blog.csdn.net/crper/article/details/55509477)
 
