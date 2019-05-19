@@ -5,7 +5,7 @@
 
 ## 前端环境需要的软件
 - [node][1] 很多东西都需要它
-- [npm][2] , [cnpm][3] , [spm][4] 安装可以更换淘宝的安装包地址([淘宝镜像][5])
+- [npm][2] , [cnpm][3] ,nrm 包镜像地址管理, [spm][4] 安装可以更换淘宝的安装包地址([淘宝镜像][5])
 - [Ruby][6](git依赖) , [msysgit][7] / [TortoiseGit][8] / [SourceTree][9][win7以上] / [SourceTree 证书下载](https://my.atlassian.com/products/index?sen=4337761#license_4337761)
 - [git-ssh 配置和使用](https://segmentfault.com/a/1190000002645623) [coding](https://coding.net/help/doc/git/ssh-key.html)
 - [gulp][10] 下面会列出常用插件 , [ F.I.S (百度前端工具框架)][11]
@@ -26,6 +26,33 @@ npm config set registry https://registry.npm.taobao.org
 #通过cnpm使用（推荐）
 npm install -g cnpm --registry=https://registry.npm.taobao.org
 ```
+3. 安装依赖包管理,更多用法请移步到nrm包官网
+```js
+// 全局安装
+npm i nrm - g
+
+// 帮助
+nrm help
+
+// 查看列表
+nrm ls
+// eg:
+// # 带有 * 为当前安装依赖源
+  npm ---- https://registry.npmjs.org/
+  cnpm --- http://r.cnpmjs.org/
+* taobao - https://registry.npm.taobao.org/
+  nj ----- https://registry.nodejitsu.com/
+  npmMirror  https://skimdb.npmjs.com/registry/
+  edunpm - http://registry.enpmjs.org/
+
+// 切换源
+nrm use taobao
+
+// 添加源
+// eg:
+rnm add taobao https://registry.npm.taobao.org/
+
+```
 
 ### npm 常用工具包
 ```js
@@ -43,13 +70,16 @@ npm i debug
 
 ```
 
+
+
 4.安装`ruby`,`（win7-8,win10选择 2.0以上的版本）` [window 安装 sass compass 记录][17]
 
 安装注意:`全部打钩`,安装在哪里都可以 [根据需求,一般默认C盘]，安装完毕, 重启 `cmd` , 输入 `gem` 命令
 ```cmd
 如果提示"RubyGems is a sophisticated package manager for Ruby. This is a basic help message containing pointers to more information. ",即安装成功.
 ```
-4.1更换淘宝镜像，有代理可以跳过这步骤
+
+4.1更换淘宝镜像，(使用`nrm`或`代理`)可以跳过这步骤
 ```cmd
 #删除默认
 gem sources --remove https://rubygems.org/
