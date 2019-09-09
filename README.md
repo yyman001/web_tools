@@ -135,8 +135,6 @@ Please make a tax deductable donation for a worthy cause: http://umdf.org/compas
 - [WeFlow](https://weflow.io/) tmt-workflow的桌面版 ，也感觉不好用
 - [iview](https://www.iviewui.com/cli) iview ui自己的手架开发工具
 - [vue-cli](https://github.com/vuejs/vue-cli/) vue spa 方式的手架
-
-
 - [Amazing-Windows-Apps](https://github.com/AmazingApps/Amazing-Windows-Apps)
 
 
@@ -146,25 +144,16 @@ Please make a tax deductable donation for a worthy cause: http://umdf.org/compas
 - [Easy Moc](https://www.easy-mock.com/) 模拟数据最好方案,提供的功能非常强大
 - [Shadowsocks 科学上网 带有一个免费账号 https://github.com/yyman001/software]   (https://github.com/shadowsocks/shadowsocks-windows)
 - [Beyond Compare 4](http://www.cr173.com/soft/20948.html) 文件对比
-- [Fiddler2 数据拦截](https://www.telerik.com/fiddler) 或 360管理软件下载
 - [postman 测试请求接口](https://www.getpostman.com/)
 - [cmder(类似cmd的命令提示符,有自带git版本)][23]  [配置教程][24]
 - [koala考拉][25](Less、Sass、Compass、CoffeeScript编译) ----免费
 - [WeChatPlugin-MacOS 微信小助手-调试开发](https://github.com/TKkk-iOSer/WeChatPlugin-MacOS)
-- [Mark 马克鳗][26] (设计图测量)
-- [PxCook 像素大厨 智能标注绝对可以解放双手了，强烈推荐。](http://www.fancynode.com.cn/pxcook)
-- [Assistor PS]() \(切图工具\)
-- [小苹果服务器][27](手机调试专用win7以上)
-- [brower-sync 自动刷新页面-多端同步,支持gulp](http://www.browsersync.cn/)
-- [F5][28] 自动刷新浏览器
+
 - [Notepad++][29] 不解释
-- Photoshop CS4/CS6 不解释,PS插件?建议去 [设计优][30]
 - 计算器 不解释
 - 右键助手1.0 ([我自己开发的,详细点这里][31]) ,彗星小助手（取色） , W3Cfuns前端开发工具箱 ([到百度分享查看下载地址][32])
 - AdobeDreamweaverCS4 写表格,热点图
 - [CSS Sprites 样式生成工具][33]
-- WampServer 搭建PHP环境服务器
-- MyWebServer 迷你型服务器
 - FlashFXP (ftp上传工具)
 - Regex Match Tracer 2.1 (正则工具)
 - [SETUNA2][34] (图片裁剪对比)
@@ -173,42 +162,66 @@ Please make a tax deductable donation for a worthy cause: http://umdf.org/compas
 - [Expresso][37]是一个.NET版本的正则表达式编辑器。可以测试你的正则表达式。
 - [DocBlockr](http://pythonhackers.com/os/spadgos/sublime-jsdocs) Sublime Text 2/3-注释生成插件
 - [JSDOC 注释文档生成工具](http://www.html-js.com/article/JSDOC-introduction-JSDOC-entry)
-- [如此简单的到达 PNG 无损压缩的极限](http://nullice.com/limitPNG/)
-- [APNG Software 转APNG软件](http://littlesvr.ca/apng/)
-- [iSparta 图片压缩](http://isparta.github.io/)
-- [limitPNG 图片压缩](http://nullice.com/limitPNG/)
-- [智图客户端](https://zhitu.isux.us/index.php/preview/download)
-- [phpStudy php搭建环境,包含多个版本随便切换](http://www.phpstudy.net/a.php/211.html)
+
+
 - [字体解决方案1-字蛛是一个中文字体压缩器,让网页自由引入中文字体成为可能](http://font-spider.org/)
 - [字体解决方案2-Fontmin,第一个纯 JavaScript 字体子集化方案](http://ecomfe.github.io/fontmin/)
-- [雪碧图合并 Cyotek Spriter ]
-- [雪碧图合并 TexturePackerGUI - 这个厉害点,支持生成雪碧图后的坐标值文件]
-- [gka 是一款简单的、高效的帧动画生成工具，图片处理工具,快速制作高性能帧动画解决方案](https://github.com/gkajs/gka)
 - [docker GUI - Now part of the Docker Toolbox](https://github.com/docker/kitematic)
+
+## 设计
+	- [Mark 马克鳗][26] (设计图测量)
+	- [PxCook 像素大厨 智能标注绝对可以解放双手了，强烈推荐。](http://www.fancynode.com.cn/pxcook)
+	- [Assistor PS](https://en.freedownloadmanager.org/Windows-PC/Assistor-PS.html) \(切图工具\)
+
+	
+## 服务器
+	- [nginx]
+	- [brower-sync 自动刷新页面-多端同步,支持gulp](http://www.browsersync.cn/)
+	- WampServer 搭建PHP环境服务器
+	- [phpStudy php搭建环境,包含多个版本随便切换](http://www.phpstudy.net/a.php/211.html)
+	- MyWebServer 迷你型服务器
+	- [F5][28] 自动刷新浏览器(本地开发)
+	- [小苹果服务器][27](手机调试专用win7以上)
+	
+## 抓包/数据拦截
+	- [whistle](https://github.com/avwo/whistle/blob/master/README-zh_CN.md)
+	- [Fiddler2 数据拦截](https://www.telerik.com/fiddler) 或 360管理软件下载
+	
+## 图片处理
+	- Photoshop CS4/CS6 不解释,PS插件?建议去 [设计优][30]
+	- [如此简单的到达 PNG 无损压缩的极限](http://nullice.com/limitPNG/)
+	- [APNG Software 转APNG软件](http://littlesvr.ca/apng/)
+	- [iSparta 图片压缩](http://isparta.github.io/)
+	- [limitPNG 图片压缩](http://nullice.com/limitPNG/)
+	- [智图客户端](https://zhitu.isux.us/index.php/preview/download)
+	- [雪碧图合并 Cyotek Spriter ]
+	- [雪碧图合并 TexturePackerGUI - 这个厉害点,支持生成雪碧图后的坐标值文件]
+	- [gka 是一款简单的、高效的帧动画生成工具，图片处理工具,快速制作高性能帧动画解决方案](https://github.com/gkajs/gka)
+	
 ## 页面性能分析工具 
-- [gtmetrix 网站性能分析 - 推荐][38] 不想用插件工具就直接访问网页吧
-- [WebPagetest][39] 一款非常优秀的网页前端性能测试工具 [国外在线地址][40] [国内阿里在线地址][41]
-- 谷歌插件 [PageSpeed][42] (页面性能检测优化 - 我自己测试卡到一半?我浏览器逗比?)
-- 谷歌插件 [Google Web Tracing Framework][43] (持移动、PC，性能分析的神器,又一个鸡文,反正我是不懂怎么用~)
-- 火狐请参考 `YSlow`
-- [web应用性能检测][44]-百度只支持移动端页面
-- [性能检测工具Tracker.js][45] - 他的谷歌插件, `WEB前端助手(FeHelper)`
+	- [gtmetrix 网站性能分析 - 推荐][38] 不想用插件工具就直接访问网页吧
+	- [WebPagetest][39] 一款非常优秀的网页前端性能测试工具 [国外在线地址][40] [国内阿里在线地址][41]
+	- 谷歌插件 [PageSpeed][42] (页面性能检测优化 - 我自己测试卡到一半?我浏览器逗比?)
+	- 谷歌插件 [Google Web Tracing Framework][43] (持移动、PC，性能分析的神器,又一个鸡文,反正我是不懂怎么用~)
+	- 火狐请参考 `YSlow`
+	- [web应用性能检测][44]-百度只支持移动端页面
+	- [性能检测工具Tracker.js][45] - 他的谷歌插件, `WEB前端助手(FeHelper)`
 
-### 火狐浏览器插件
-- Firebug
-- YSlow 性能检测
-- JSONView 在页面查看那json数据
-- CSSUsage 检测无效css
-- Dust-Me Selectors 检测页面css沉余
-- FireQuery jq语法高亮
-- FireRainbow js语法高亮
-- HtmlValidator html文档标准检测
-- NoScript 控制页面和浏览器js
-- [FireGestures][46] 用鼠标手势命令
-- [Adblock Edge][47] 广告过滤
-- webDeveloper1.2.2-(zh-cn) 中文版,[点我][48] （除了最后一个网上可能找不到中文版）
+## 火狐浏览器插件
+	- Firebug
+	- YSlow 性能检测
+	- JSONView 在页面查看那json数据
+	- CSSUsage 检测无效css
+	- Dust-Me Selectors 检测页面css沉余
+	- FireQuery jq语法高亮
+	- FireRainbow js语法高亮
+	- HtmlValidator html文档标准检测
+	- NoScript 控制页面和浏览器js
+	- [FireGestures][46] 用鼠标手势命令
+	- [Adblock Edge][47] 广告过滤
+	- webDeveloper1.2.2-(zh-cn) 中文版,[点我][48] （除了最后一个网上可能找不到中文版）
 
-### 谷歌浏览器插件
+## 谷歌浏览器插件
 - [Sight](https://chrome.google.com/webstore/detail/sight/epmaefhielclhlnmjofcdapbeepkmggh) 通过各种主题和字体选项，Sight将网站的源代码以更为视觉舒适的形式强调。
 - [海淘访问助手](http://www.haitaojiasu.pw/) -免费翻墙谷歌插件-强烈推荐
 - [octotree ](https://github.com/buunguyen/octotree) 看github的时候生成项目tree 推荐
