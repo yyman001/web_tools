@@ -141,85 +141,98 @@ Please make a tax deductable donation for a worthy cause: http://umdf.org/compas
 ## 常用工具列表：
 - [github start收藏项目管理工具-AStral](https://app.astralapp.com/dashboard/untagged)
 - [jsinspect 重构,检测相似的代码片](https://github.com/danielstjules/jsinspect)
-- [Easy Moc](https://www.easy-mock.com/) 模拟数据最好方案,提供的功能非常强大
+
 - [Shadowsocks 科学上网 带有一个免费账号 https://github.com/yyman001/software]   (https://github.com/shadowsocks/shadowsocks-windows)
 - [Beyond Compare 4](http://www.cr173.com/soft/20948.html) 文件对比
-- [postman 测试请求接口](https://www.getpostman.com/)
 - [cmder(类似cmd的命令提示符,有自带git版本)][23]  [配置教程][24]
-- [koala考拉][25](Less、Sass、Compass、CoffeeScript编译) ----免费
 - [WeChatPlugin-MacOS 微信小助手-调试开发](https://github.com/TKkk-iOSer/WeChatPlugin-MacOS)
-
 - [Notepad++][29] 不解释
 - 计算器 不解释
 - 右键助手1.0 ([我自己开发的,详细点这里][31]) ,彗星小助手（取色） , W3Cfuns前端开发工具箱 ([到百度分享查看下载地址][32])
 - AdobeDreamweaverCS4 写表格,热点图
-- [CSS Sprites 样式生成工具][33]
 - FlashFXP (ftp上传工具)
-- Regex Match Tracer 2.1 (正则工具)
-- [SETUNA2][34] (图片裁剪对比)
 - [Markdown Pad 2][35] (写Markdown格式文档必备的软件,我文章是用在线版)
 - [Winmerge][36] 开源的文件比较工具(如果你不能使用Beyond Compare)
-- [Expresso][37]是一个.NET版本的正则表达式编辑器。可以测试你的正则表达式。
 - [DocBlockr](http://pythonhackers.com/os/spadgos/sublime-jsdocs) Sublime Text 2/3-注释生成插件
 - [JSDOC 注释文档生成工具](http://www.html-js.com/article/JSDOC-introduction-JSDOC-entry)
-
-
 - [字体解决方案1-字蛛是一个中文字体压缩器,让网页自由引入中文字体成为可能](http://font-spider.org/)
 - [字体解决方案2-Fontmin,第一个纯 JavaScript 字体子集化方案](http://ecomfe.github.io/fontmin/)
 - [docker GUI - Now part of the Docker Toolbox](https://github.com/docker/kitematic)
 
+## 模拟数据/请求工具
+- [Easy Moc](https://www.easy-mock.com/) 模拟数据最好方案,提供的功能非常强大
+- [postwoman 在线](https://postwoman.io/?ref=producthunt)
+- [postman 测试请求接口](https://www.getpostman.com/)
+
+## css 工具
+- [把CSS代码转成SASS的应用](http://css2sass.herokuapp.com/)
+- [CSS Sprites 样式生成工具][33]
+- [koala考拉][25](Less、Sass、Compass、CoffeeScript编译) ----免费
+
 ## 设计
-	- [Mark 马克鳗][26] (设计图测量)
-	- [PxCook 像素大厨 智能标注绝对可以解放双手了，强烈推荐。](http://www.fancynode.com.cn/pxcook)
-	- [Assistor PS](https://en.freedownloadmanager.org/Windows-PC/Assistor-PS.html) \(切图工具\)
+- [Mark 马克鳗][26] (设计图测量)
+- [PxCook 像素大厨 智能标注绝对可以解放双手了，强烈推荐。](http://www.fancynode.com.cn/pxcook)
+- [Assistor PS](https://en.freedownloadmanager.org/Windows-PC/Assistor-PS.html) \(切图工具\)
+
+## 正则
+- [在线正则regex pal][73]
+- [正则图形显示][74]
+- [Expresso][37]是一个.NET版本的正则表达式编辑器。可以测试你的正则表达式。
+- Regex Match Tracer 2.1 (正则工具)
 
 	
 ## 服务器
-	- [nginx]
-	- [brower-sync 自动刷新页面-多端同步,支持gulp](http://www.browsersync.cn/)
-	- WampServer 搭建PHP环境服务器
-	- [phpStudy php搭建环境,包含多个版本随便切换](http://www.phpstudy.net/a.php/211.html)
-	- MyWebServer 迷你型服务器
-	- [F5][28] 自动刷新浏览器(本地开发)
-	- [小苹果服务器][27](手机调试专用win7以上)
+- [nginx]
+- [brower-sync 自动刷新页面-多端同步,支持gulp](http://www.browsersync.cn/)
+- WampServer 搭建PHP环境服务器
+- [phpStudy php搭建环境,包含多个版本随便切换](http://www.phpstudy.net/a.php/211.html)
+- MyWebServer 迷你型服务器
+- [F5][28] 自动刷新浏览器(本地开发)
+- [小苹果服务器][27](手机调试专用win7以上)
 	
 ## 抓包/数据拦截
-	- [whistle](https://github.com/avwo/whistle/blob/master/README-zh_CN.md)
-	- [Fiddler2 数据拦截](https://www.telerik.com/fiddler) 或 360管理软件下载
+- [whistle](https://github.com/avwo/whistle/blob/master/README-zh_CN.md)
+- [Fiddler2 数据拦截](https://www.telerik.com/fiddler) 或 360管理软件下载
 	
 ## 图片处理
-	- Photoshop CS4/CS6 不解释,PS插件?建议去 [设计优][30]
-	- [如此简单的到达 PNG 无损压缩的极限](http://nullice.com/limitPNG/)
-	- [APNG Software 转APNG软件](http://littlesvr.ca/apng/)
-	- [iSparta 图片压缩](http://isparta.github.io/)
-	- [limitPNG 图片压缩](http://nullice.com/limitPNG/)
-	- [智图客户端](https://zhitu.isux.us/index.php/preview/download)
-	- [雪碧图合并 Cyotek Spriter ]
-	- [雪碧图合并 TexturePackerGUI - 这个厉害点,支持生成雪碧图后的坐标值文件]
-	- [gka 是一款简单的、高效的帧动画生成工具，图片处理工具,快速制作高性能帧动画解决方案](https://github.com/gkajs/gka)
-	
+- Photoshop CS4/CS6 不解释,PS插件?建议去 [设计优][30]
+- [如此简单的到达 PNG 无损压缩的极限](http://nullice.com/limitPNG/)
+- [APNG Software 转APNG软件](http://littlesvr.ca/apng/)
+- [iSparta 图片压缩](http://isparta.github.io/)
+- [limitPNG 图片压缩](http://nullice.com/limitPNG/)
+- [智图客户端](https://zhitu.isux.us/index.php/preview/download)
+- [雪碧图合并 Cyotek Spriter ](http://www.ouyaoxiazai.com/soft/hyrj/146/47002.html)
+- [雪碧图合并 TexturePackerGUI - 这个厉害点,支持生成雪碧图后的坐标值文件](https://www.codeandweb.com/texturepacker)
+- [gka 是一款简单的、高效的帧动画生成工具，图片处理工具,快速制作高性能帧动画解决方案](https://github.com/gkajs/gka)
+- [熊猫png压缩][67]
+- [智图(多种图片压缩)][68]
+- [雪碧图坐标查询][69]
+- [在线切图工具][71] (最近找到的,不知道如何,欢迎大家测试)	
+- [SETUNA2][34] (图片裁剪对比)
+
 ## 页面性能分析工具 
-	- [gtmetrix 网站性能分析 - 推荐][38] 不想用插件工具就直接访问网页吧
-	- [WebPagetest][39] 一款非常优秀的网页前端性能测试工具 [国外在线地址][40] [国内阿里在线地址][41]
-	- 谷歌插件 [PageSpeed][42] (页面性能检测优化 - 我自己测试卡到一半?我浏览器逗比?)
-	- 谷歌插件 [Google Web Tracing Framework][43] (持移动、PC，性能分析的神器,又一个鸡文,反正我是不懂怎么用~)
-	- 火狐请参考 `YSlow`
-	- [web应用性能检测][44]-百度只支持移动端页面
-	- [性能检测工具Tracker.js][45] - 他的谷歌插件, `WEB前端助手(FeHelper)`
+- [gtmetrix 网站性能分析 - 推荐][38] 不想用插件工具就直接访问网页吧
+- [WebPagetest][39] 一款非常优秀的网页前端性能测试工具 [国外在线地址][40] [国内阿里在线地址][41]
+- 谷歌插件 [PageSpeed][42] (页面性能检测优化 - 我自己测试卡到一半?我浏览器逗比?)
+- 谷歌插件 [Google Web Tracing Framework][43] (持移动、PC，性能分析的神器,又一个鸡文,反正我是不懂怎么用~)
+- 火狐请参考 `YSlow`
+- [web应用性能检测][44]-百度只支持移动端页面
+- [性能检测工具Tracker.js][45]
+- 他的谷歌插件, `WEB前端助手(FeHelper)`
 
 ## 火狐浏览器插件
-	- Firebug
-	- YSlow 性能检测
-	- JSONView 在页面查看那json数据
-	- CSSUsage 检测无效css
-	- Dust-Me Selectors 检测页面css沉余
-	- FireQuery jq语法高亮
-	- FireRainbow js语法高亮
-	- HtmlValidator html文档标准检测
-	- NoScript 控制页面和浏览器js
-	- [FireGestures][46] 用鼠标手势命令
-	- [Adblock Edge][47] 广告过滤
-	- webDeveloper1.2.2-(zh-cn) 中文版,[点我][48] （除了最后一个网上可能找不到中文版）
+- Firebug
+- YSlow 性能检测
+- JSONView 在页面查看那json数据
+- CSSUsage 检测无效css
+- Dust-Me Selectors 检测页面css沉余
+- FireQuery jq语法高亮
+- FireRainbow js语法高亮
+- HtmlValidator html文档标准检测
+- NoScript 控制页面和浏览器js
+- [FireGestures][46] 用鼠标手势命令
+- [Adblock Edge][47] 广告过滤
+- webDeveloper1.2.2-(zh-cn) 中文版,[点我][48] （除了最后一个网上可能找不到中文版）
 
 ## 谷歌浏览器插件
 - [Sight](https://chrome.google.com/webstore/detail/sight/epmaefhielclhlnmjofcdapbeepkmggh) 通过各种主题和字体选项，Sight将网站的源代码以更为视觉舒适的形式强调。
@@ -239,7 +252,7 @@ Please make a tax deductable donation for a worthy cause: http://umdf.org/compas
 - JetBrains IDE Suport (配合WS 在浏览器同步刷新,似乎在谷歌高版本已经无效,如果你不使用ws,可以配合gulp的插件,也可以实现同步更新)
 - [ReRes][56] 开发的时候替换测试路径为本地,实际是上线后的地址
 - Enable Copy 去除右键限制
-- JSON View 查看json格式数据
+- ~~JSON View 查看json格式数据~~
 - WEB前端助手(FeHelper)_v5.8
 - 有道云笔记网页剪报 (保存页面到有道笔记本)
 - Firebug Lite 谷歌用火狐插件(哈哈,开发者用火狐提供的ie火狐js搞的吧)
@@ -258,20 +271,15 @@ Please make a tax deductable donation for a worthy cause: http://umdf.org/compas
 - [360云盘][64] 同步数据文件
 - [有道云笔记][65] 协作同步开发
 - Proxy SwitchySharp 代理工具,翻墙用的,需要自己找账号信息填写哦
+- [Snipaste 截图工具](https://zh.snipaste.com/)
 
 ### 其他一些网上工具
 - [使用GUI快速创建SVG path](http://anthonydugois.com/svg-path-builder/)
-- [把CSS代码转成SASS的应用](http://css2sass.herokuapp.com/)
+
 - [resizr 测试  CSS media queries 的轻量级应用-需要线上地址,没有线上地址,可以搞个coding-git](http://resizr.co/)
 - [中国开源在线工具][66]
-- [熊猫png压缩][67]
-- [智图(多种图片压缩)][68]
-- [雪碧图坐标查询][69]
 - [cssanimate动画制作工具][70]
-- [在线切图工具][71] (最近找到的,不知道如何,欢迎大家测试)
 - [配色方案][72](美工的工具)
-- [在线正则regex pal][73]
-- [正则图形显示][74]
 - [CSS3/HTML5/SVG 兼容性查询表][75]
 - [WhatTheFont-字体查询1][76] [求字体网-字体查询2][77] [What Font is-字体查询3][78]
 - [运同步多人办公](https://yiqixie.com/)
@@ -331,7 +339,7 @@ Please make a tax deductable donation for a worthy cause: http://umdf.org/compas
 ### webpack常用插件
 - [Webpack Monitor 使用图表显示打包后文件包含内容百分比](https://github.com/webpackmonitor/webpackmonitor) 如果页面打开一直load，请修改`node_modules\_webpack-monitor@1.0.13@webpack-monitor\build\index.html` 里面js的链接
 - [webpack进阶面板](https://github.com/FormidableLabs/webpack-dashboard)
-- [webpack-dev-server 实时重新加载]
+- [webpack-dev-server 实时重新加载](https://github.com/webpack/webpack-dev-server/)
 
 再一次感谢您花费时间阅读这篇文章,如果你有更好的工具,可以给我留言,其他资料还在整理当中,感谢你的阅读!
 
