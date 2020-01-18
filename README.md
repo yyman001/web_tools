@@ -6,7 +6,7 @@
 ## 前端环境需要的软件
 - [node][1] 很多东西都需要它
 - [npm][2] , [cnpm][3] ,nrm 包镜像地址管理, [spm][4] 安装可以更换淘宝的安装包地址([淘宝镜像][5])
-- [Ruby][6](git依赖) , [msysgit][7] / [TortoiseGit][8] / [SourceTree][9][win7以上] / [SourceTree 证书下载](https://my.atlassian.com/products/index?sen=4337761#license_4337761)
+- [Ruby][6](git依赖)
 - [git-ssh 配置和使用](https://segmentfault.com/a/1190000002645623) [coding](https://coding.net/help/doc/git/ssh-key.html)
 - [gulp][10] 下面会列出常用插件 , [ F.I.S (百度前端工具框架)][11]
 - [sass][12] [教程][13]/ [less][14]
@@ -14,19 +14,9 @@
 - `git`还有另外一个工具(在xp,win7上可用还是图形的哦,还有文章) [点我][15]
 
 ### 安装顺序
+1.安装`node`,安装完成就会有 `npm` 环境
 
-1.安装`node`,安装完成就会有 `npm ` 环境
-
-2.设置镜像
-```js
-#临时指向使用
-npm --registry https://registry.npm.taobao.org
-#持久使用（推荐）
-npm config set registry https://registry.npm.taobao.org
-#通过cnpm使用（推荐）
-npm install -g cnpm --registry=https://registry.npm.taobao.org
-```
-3. 安装依赖包管理,更多用法请移步到nrm包官网
+2.安装依赖包管理,更多用法请移步到nrm包官网
 ```js
 // 全局安装
 npm i nrm - g
@@ -45,7 +35,7 @@ nrm ls
   npmMirror  https://skimdb.npmjs.com/registry/
   edunpm - http://registry.enpmjs.org/
 
-// 切换源
+// 切换源(镜像)
 nrm use taobao
 
 // 添加源
@@ -69,17 +59,13 @@ npm i -g browser-sync
 npm i debug
 
 ```
-
-
-
-4.安装`ruby`,`（win7-8,win10选择 2.0以上的版本）` [window 安装 sass compass 记录][17]
-
+3.安装`ruby`,`（win7-8,win10选择 2.0以上的版本）` [window 安装 sass compass 记录][17]
 安装注意:`全部打钩`,安装在哪里都可以 [根据需求,一般默认C盘]，安装完毕, 重启 `cmd` , 输入 `gem` 命令
 ```cmd
 如果提示"RubyGems is a sophisticated package manager for Ruby. This is a basic help message containing pointers to more information. ",即安装成功.
 ```
 
-4.1更换淘宝镜像，(使用`nrm`或`代理`)可以跳过这步骤
+3.1更换淘宝镜像，(使用`nrm`或`代理`)可以跳过这步骤
 ```cmd
 #删除默认
 gem sources --remove https://rubygems.org/
@@ -100,7 +86,7 @@ https://gems.ruby-china.org/
 # 请确保只有 gems.ruby-china.org
 
 ```
-4.2 安装sass
+3.2 安装sass
 ```cmd
 gem install sass
 #是否安装成功
@@ -108,7 +94,7 @@ sass -v
 #输出信息
 Sass 3.4.9 (Selective Steve)
 ```
-4.3 安装`compass`
+3.3 安装`compass`
 ```cmd
 gem install compass
 #是否安装成功
@@ -121,6 +107,12 @@ Compass is charityware.
 Please make a tax deductable donation for a worthy cause: http://umdf.org/compass
 ```
 
+## git 工具
+- [git-for-windows][7]
+- [TortoiseGit][8] 乌龟
+- [SourceTree][9] / [SourceTree 证书下载](https://my.atlassian.com/products/index?sen=4337761#license_4337761)
+- [Git Extensions](https://github.com/gitextensions/gitextensions) 缺点: 需要自己定义第三方differ工具
+- [Sublime Merge](https://www.sublimemerge.com/) 优点: 自动隐藏交叉合并,分支更清晰 缺点:只支持x64
 
 ## 编辑器IDE
 - [WebStrom](https://www.jetbrains.com/webstorm/) `推荐` [配置在底部](#webstorm配置)
@@ -129,7 +121,6 @@ Please make a tax deductable donation for a worthy cause: http://umdf.org/compas
 - [sublime_text][20]([文章介绍][21])
 - [HBuilder][22]
 
-
 ## 尝试工作流工具/手架
 - [tmt-workflow](https://github.com/Tencent/tmt-workflow) 感觉不好用
 - [WeFlow](https://weflow.io/) tmt-workflow的桌面版 ，也感觉不好用
@@ -137,11 +128,9 @@ Please make a tax deductable donation for a worthy cause: http://umdf.org/compas
 - [vue-cli](https://github.com/vuejs/vue-cli/) vue spa 方式的手架
 - [Amazing-Windows-Apps](https://github.com/AmazingApps/Amazing-Windows-Apps)
 
-
 ## 常用工具列表：
 - [github start收藏项目管理工具-AStral](https://app.astralapp.com/dashboard/untagged)
 - [jsinspect 重构,检测相似的代码片](https://github.com/danielstjules/jsinspect)
-
 - [Shadowsocks 科学上网 带有一个免费账号 https://github.com/yyman001/software]   (https://github.com/shadowsocks/shadowsocks-windows)
 - [Beyond Compare 4](http://www.cr173.com/soft/20948.html) 文件对比
 - [cmder(类似cmd的命令提示符,有自带git版本)][23]  [配置教程][24]
@@ -179,7 +168,6 @@ Please make a tax deductable donation for a worthy cause: http://umdf.org/compas
 - [正则图形显示][74]
 - [Expresso][37]是一个.NET版本的正则表达式编辑器。可以测试你的正则表达式。
 - Regex Match Tracer 2.1 (正则工具)
-
 	
 ## 服务器
 - [nginx]
@@ -272,10 +260,12 @@ Please make a tax deductable donation for a worthy cause: http://umdf.org/compas
 - [有道云笔记][65] 协作同步开发
 - Proxy SwitchySharp 代理工具,翻墙用的,需要自己找账号信息填写哦
 - [Snipaste 截图工具](https://zh.snipaste.com/)
+- [Q-Dir 多窗口文件夹管理]
+- [Xmanager Enterprise 5 远程服务器连接xshell]
+- [自同步（zisync） 多电脑同步数据](https://baike.baidu.com/item/%E8%87%AA%E5%90%8C%E6%AD%A5/12732326)
 
 ### 其他一些网上工具
 - [使用GUI快速创建SVG path](http://anthonydugois.com/svg-path-builder/)
-
 - [resizr 测试  CSS media queries 的轻量级应用-需要线上地址,没有线上地址,可以搞个coding-git](http://resizr.co/)
 - [中国开源在线工具][66]
 - [cssanimate动画制作工具][70]
@@ -345,11 +335,7 @@ Please make a tax deductable donation for a worthy cause: http://umdf.org/compas
 
 作者 [@黑色技术][96]
 创建时间: 2015 年 3月 15日
-更新时间: 2017 年 11月 30日
-
-
-
-
+更新时间: 2020 年 1月 18日
 
   [1]: https://nodejs.org/download/
   [2]: https://www.npmjs.com/
