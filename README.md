@@ -44,6 +44,9 @@ nrm use taobao
 // eg:
 rnm add taobao https://registry.npm.taobao.org/
 
+// yarn
+npm install --global yarn
+
 ```
 
 ### npm 常用工具包
