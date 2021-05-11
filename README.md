@@ -47,6 +47,8 @@ rnm add taobao https://registry.npm.taobao.org/
 // yarn
 npm install --global yarn
 
+// 快速删除 node_modules
+npm i -g npkill
 ```
 
 ### npm 常用工具包
