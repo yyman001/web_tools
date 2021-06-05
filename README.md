@@ -6,6 +6,7 @@
 ## 前端环境需要的软件
 - [node][1] 很多东西都需要它
 - [npm][2] , [cnpm][3] ,nrm 包镜像地址管理, [spm][4] 安装可以更换淘宝的安装包地址([淘宝镜像][5])
+- pnpm 全新包管理
 - nrm 包链接管理
 - nvm node 版本管理
 - [Ruby][6](git依赖)
@@ -22,6 +23,9 @@
 ```js
 // 全局安装
 npm i nrm - g
+
+// 参考说明文章  https://juejin.cn/post/6969450118839795749
+npm i pnpm -g
 
 // 帮助
 nrm help
