@@ -6,9 +6,9 @@
 ## 前端环境需要的软件
 - [node][1] 很多东西都需要它
 - [npm][2] , [cnpm][3] ,nrm 包镜像地址管理, [spm][4] 安装可以更换淘宝的安装包地址([淘宝镜像][5])
-- pnpm 全新包管理
-- nrm 包链接管理
-- nvm node 版本管理
+- [pnpm 全新包管理](https://github.com/pnpm/pnpm)
+- [nrm 包链接管理](https://github.com/Pana/nrm)
+- [nvm node 版本管理](https://github.com/nvm-sh/nvm)
 - [Ruby][6](git依赖)
 - [git-ssh 配置和使用](https://segmentfault.com/a/1190000002645623) [coding](https://coding.net/help/doc/git/ssh-key.html)
 - [gulp][10] 下面会列出常用插件 , [ F.I.S (百度前端工具框架)][11]
@@ -46,7 +46,7 @@ nrm use taobao
 
 // 添加源
 // eg:
-rnm add taobao https://registry.npm.taobao.org/
+nrm add taobao https://registry.npm.taobao.org/
 
 // yarn
 npm install --global yarn
