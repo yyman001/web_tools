@@ -4,11 +4,12 @@
 我们前端,每个人都有自己的开发工作环境,工具等,所以我写了这一篇文章,为自己方便把自己常用的**`前端工具`**记录下来,以便到时候在新的电脑上可以快速搭建自己熟悉的工作环境和使用自己熟悉的工具,同时可能也会对你有少少的帮助吧!
 
 ## 前端环境需要的软件
-- [node][1] 很多东西都需要它
+- [nvm](https://github.com/nvm-sh/nvm) 管理node 版本
+- [node][1] 如果不需要多个node版本管理，直接下载这个（不推荐）
 - [npm][2] , [cnpm][3] ,nrm 包镜像地址管理, [spm][4] 安装可以更换淘宝的安装包地址([淘宝镜像][5])
 - [pnpm 全新包管理](https://github.com/pnpm/pnpm)
 - [nrm 包链接管理](https://github.com/Pana/nrm)
-- [nvm node 版本管理](https://github.com/nvm-sh/nvm)
+
 - [Ruby][6](git依赖)
 - [git-ssh 配置和使用](https://segmentfault.com/a/1190000002645623) [coding](https://coding.net/help/doc/git/ssh-key.html)
 - [gulp][10] 下面会列出常用插件 , [ F.I.S (百度前端工具框架)][11]
@@ -17,7 +18,22 @@
 - `git`还有另外一个工具(在xp,win7上可用还是图形的哦,还有文章) [点我][15]
 
 ### 安装顺序
-1.安装`node`,安装完成就会有 `npm` 环境
+
+1.安装`node环境`,安装完成就即可使用 `npm`
+
+方法一： nvm 安装（官网默认下载安装即可）， 找node 官网找到需要安装的 [node version](https://nodejs.org/en/download/releases/)，
+使用命令行
+```cmd
+#查看安装node 12.22.6, 64位版本
+nvm install 12.22.6 64
+#查看已安装的node版本列表
+nvm list
+#使用某版本
+nvm use 12.22.6
+#后面直接使用npm即可
+```
+
+方法二： 直接下载 node 应用程序安装即可
 
 2.安装依赖包管理,更多用法请移步到nrm包官网
 ```js
@@ -49,13 +65,13 @@ nrm use taobao
 nrm add taobao https://registry.npm.taobao.org/
 
 // yarn
-npm install --global yarn
+npm install --global yarn 或 npm i -g yarn
 
 // 快速删除 node_modules
 npm i -g npkill
 ```
 
-### npm 常用工具包
+### npm 常用工具包（可选）
 ```js
 // gulp [使用 gulp 构建工程][16]
 npm i gulp 
@@ -97,7 +113,7 @@ https://gems.ruby-china.org/
 # 请确保只有 gems.ruby-china.org
 
 ```
-3.2 安装sass
+3.2 安装sass  （可选）
 ```cmd
 gem install sass
 #是否安装成功
@@ -105,7 +121,7 @@ sass -v
 #输出信息
 Sass 3.4.9 (Selective Steve)
 ```
-3.3 安装`compass`
+3.3 安装`compass` （可选）
 ```cmd
 gem install compass
 #是否安装成功
