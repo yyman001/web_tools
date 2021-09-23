@@ -4,7 +4,7 @@
 我们前端,每个人都有自己的开发工作环境,工具等,所以我写了这一篇文章,为自己方便把自己常用的**`前端工具`**记录下来,以便到时候在新的电脑上可以快速搭建自己熟悉的工作环境和使用自己熟悉的工具,同时可能也会对你有少少的帮助吧!
 
 ## 前端环境需要的软件
-- [nvm](https://github.com/nvm-sh/nvm) 管理node 版本
+- [nvm](https://github.com/nvm-sh/nvm) 管理node 版本, [nvm-windows](https://github.com/coreybutler/nvm-windows)
 - [node][1] 如果不需要多个node版本管理，直接下载这个（不推荐）
 - [npm][2] , [cnpm][3] ,nrm 包镜像地址管理, [spm][4] 安装可以更换淘宝的安装包地址([淘宝镜像][5])
 - [pnpm 全新包管理](https://github.com/pnpm/pnpm)
