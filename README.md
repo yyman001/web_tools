@@ -9,13 +9,14 @@
 - [npm][2] , [cnpm][3] ,nrm 包镜像地址管理, [spm][4] 安装可以更换淘宝的安装包地址([淘宝镜像][5])
 - [pnpm 全新包管理](https://github.com/pnpm/pnpm)
 - [nrm 包链接管理](https://github.com/Pana/nrm)
-
+- [Python 2.7](https://www.python.org/download/releases/2.7/)
 - [Ruby][6](git依赖)
 - [git-ssh 配置和使用](https://segmentfault.com/a/1190000002645623) [coding](https://coding.net/help/doc/git/ssh-key.html)
 - [gulp][10] 下面会列出常用插件 , [ F.I.S (百度前端工具框架)][11]
 - [sass][12] [教程][13]/ [less][14]
 - [sass文件编译方案](https://github.com/yyman001/any_question/issues/10) 
 - `git`还有另外一个工具(在xp,win7上可用还是图形的哦,还有文章) [点我][15]
+- [node-sass 依赖node版本列表](https://github.com/sass/node-sass/releases)
 
 ### 安装顺序
 
