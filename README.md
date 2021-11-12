@@ -86,6 +86,10 @@ npm i -g browser-sync
 // Debug log输出
 npm i debug
 
+// 多项目不同node自动切换
+npm install -g avn avn-nvm avn-n
+# https://github.com/wbyoung/avn
+
 ```
 3.安装`ruby`,`（win7-8,win10选择 2.0以上的版本）` [window 安装 sass compass 记录][17]
 安装注意:`全部打钩`,安装在哪里都可以 [根据需求,一般默认C盘]，安装完毕, 重启 `cmd` , 输入 `gem` 命令
