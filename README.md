@@ -161,14 +161,13 @@ Please make a tax deductable donation for a worthy cause: http://umdf.org/compas
 - [Amazing-Windows-Apps](https://github.com/AmazingApps/Amazing-Windows-Apps)
 
 ## 常用工具列表：
+- [数据库关系图设计](https://dbdiagram.io/)
 - [github start收藏项目管理工具-AStral](https://app.astralapp.com/dashboard/untagged)
 - [jsinspect 重构,检测相似的代码片](https://github.com/danielstjules/jsinspect)
 - [Shadowsocks 科学上网 带有一个免费账号 https://github.com/yyman001/software]   (https://github.com/shadowsocks/shadowsocks-windows)
 - [Beyond Compare 4](http://www.cr173.com/soft/20948.html) 文件对比
 - [cmder(类似cmd的命令提示符,有自带git版本)][23]  [配置教程][24]
 - [WeChatPlugin-MacOS 微信小助手-调试开发](https://github.com/TKkk-iOSer/WeChatPlugin-MacOS)
-- [Notepad++][29] 不解释
-- 计算器 不解释
 - 右键助手1.0 ([我自己开发的,详细点这里][31]) ,彗星小助手（取色） , W3Cfuns前端开发工具箱 ([到百度分享查看下载地址][32])
 - AdobeDreamweaverCS4 写表格,热点图
 - FlashFXP (ftp上传工具)
