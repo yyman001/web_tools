@@ -217,11 +217,10 @@ Please make a tax deductable donation for a worthy cause: http://umdf.org/compas
 	
 ## 图片处理
 - Photoshop CS4/CS6 不解释,PS插件?建议去 [设计优][30]
-- [如此简单的到达 PNG 无损压缩的极限](http://nullice.com/limitPNG/)
 - [APNG Software 转APNG软件](http://littlesvr.ca/apng/)
 - [iSparta 图片压缩](http://isparta.github.io/)
-- [limitPNG 图片压缩](http://nullice.com/limitPNG/)
-- [智图客户端](https://zhitu.isux.us/index.php/preview/download)
+- [limitPNG 无损压缩的极限](http://nullice.com/limitPNG/)
+- [智图客户端](https://zhitu.isux.us/)
 - [雪碧图合并 Cyotek Spriter ](http://www.ouyaoxiazai.com/soft/hyrj/146/47002.html)
 - [雪碧图合并 TexturePackerGUI - 这个厉害点,支持生成雪碧图后的坐标值文件](https://www.codeandweb.com/texturepacker)
 - [gka 是一款简单的、高效的帧动画生成工具，图片处理工具,快速制作高性能帧动画解决方案](https://github.com/gkajs/gka)
