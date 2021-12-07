@@ -22,7 +22,7 @@
 
 1.安装`node环境`,安装完成就即可使用 `npm`
 
-方法一： nvm 安装（官网默认下载安装即可）， 找node 官网找到需要安装的 [node version](https://nodejs.org/en/download/releases/)，
+方法一： nvm 安装（官网默认下载安装即可）， 找node 官网找到需要安装的 [node version](https://nodejs.org/en/download/releases/)，另外一个版本切换工具[n](https://github.com/tj/n)
 使用命令行
 ```cmd
 #查看安装node 12.22.6, 64位版本
@@ -32,6 +32,15 @@ nvm list
 #使用某版本
 nvm use 12.22.6
 #后面直接使用npm即可
+
+# 版本切换工具2
+npm install -g n
+
+# 安装node版本
+n 12.22.6
+
+# 切换,输入 n 然后根据列表选择回车即可
+
 ```
 
 方法二： 直接下载 node 应用程序安装即可
