@@ -194,6 +194,7 @@ Please make a tax deductable donation for a worthy cause: http://umdf.org/compas
 - [postman 测试请求接口](https://www.getpostman.com/)
 - [Postman中文版](https://github.com/hlmd/Postman-cn)
 - [APIPOST](https://www.apipost.cn/)
+- [Apifox API 文档、API 调试、API Mock、API 自动化测试](https://www.apifox.cn/)
 
 ## css 工具
 - [把CSS代码转成SASS的应用](http://css2sass.herokuapp.com/)
