@@ -172,6 +172,7 @@ Please make a tax deductable donation for a worthy cause: http://umdf.org/compas
 ## 常用工具列表：
 - [数据库关系图设计](https://dbdiagram.io/)
 - [github start收藏项目管理工具-AStral](https://app.astralapp.com/dashboard/untagged)
+- [jscpd 重构,找到重复代码](https://github.com/kucherenko/jscpd)
 - [jsinspect 重构,检测相似的代码片](https://github.com/danielstjules/jsinspect)
 - [Shadowsocks 科学上网 带有一个免费账号 https://github.com/yyman001/software]   (https://github.com/shadowsocks/shadowsocks-windows)
 - [Beyond Compare 4](http://www.cr173.com/soft/20948.html) 文件对比
