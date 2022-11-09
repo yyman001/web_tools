@@ -5,14 +5,14 @@
 
 ## 前端环境需要的软件
 - [nvm](https://github.com/nvm-sh/nvm) 管理node 版本, [nvm-windows](https://github.com/coreybutler/nvm-windows)
-- [node][1] 如果不需要多个node版本管理，直接下载这个（不推荐）
-- [npm][2] , [cnpm][3] ,nrm 包镜像地址管理, [spm][4] 安装可以更换淘宝的安装包地址([淘宝镜像][5])
+- ~~[node][1] 如果不需要多个node版本管理，直接下载这个（不推荐）~~
+- [npm][2] , [cnpm][3] , 建议使用`nrm` 包镜像地址管理, [spm][4] 安装可以更换淘宝的安装包地址([淘宝镜像][5])
 - [pnpm 全新包管理](https://github.com/pnpm/pnpm)
 - [nrm 包链接管理](https://github.com/Pana/nrm)
 - [Python 2.7](https://www.python.org/download/releases/2.7/)
 - [Ruby][6](git依赖)
 - [git-ssh 配置和使用](https://segmentfault.com/a/1190000002645623) [coding](https://coding.net/help/doc/git/ssh-key.html)
-- [gulp][10] 下面会列出常用插件 , [ F.I.S (百度前端工具框架)][11]
+- ~~[gulp][10] 下面会列出常用插件 , [ F.I.S (百度前端工具框架)][11]~~
 - [sass][12] [教程][13]/ [less][14]
 - [sass文件编译方案](https://github.com/yyman001/any_question/issues/10) 
 - `git`还有另外一个工具(在xp,win7上可用还是图形的哦,还有文章) [点我][15]
@@ -20,18 +20,18 @@
 
 ### 安装顺序
 
-1.安装`node环境`,安装完成就即可使用 `npm`
+1.window 下载 nvm-windows 直接安装好，再根据需要安装对应的node版本， 报错请重启电脑后再试！
 
 方法一： nvm 安装（官网默认下载安装即可）， 找node 官网找到需要安装的 [node version](https://nodejs.org/en/download/releases/)，另外一个版本切换工具[n](https://github.com/tj/n)
 使用命令行
 ```cmd
-#查看安装node 12.22.6, 64位版本
+# 查看安装node 12.22.6, 64位版本
 nvm install 12.22.6 64
-#查看已安装的node版本列表
+# 查看已安装的node版本列表
 nvm list
-#使用某版本
+# 使用某版本
 nvm use 12.22.6
-#后面直接使用npm即可
+# 后面直接使用npm即可
 
 # 版本切换工具2
 npm install -g n
@@ -98,54 +98,6 @@ npm i debug
 // 多项目不同node自动切换
 npm install -g avn avn-nvm avn-n
 # https://github.com/wbyoung/avn
-
-```
-3.安装`ruby`,`（win7-8,win10选择 2.0以上的版本）` [window 安装 sass compass 记录][17]
-安装注意:`全部打钩`,安装在哪里都可以 [根据需求,一般默认C盘]，安装完毕, 重启 `cmd` , 输入 `gem` 命令
-```cmd
-如果提示"RubyGems is a sophisticated package manager for Ruby. This is a basic help message containing pointers to more information. ",即安装成功.
-```
-
-3.1更换淘宝镜像，(使用`nrm`或`代理`)可以跳过这步骤
-```cmd
-#删除默认
-gem sources --remove https://rubygems.org/
-#添加镜像
-gem sources --add https://gems.ruby-china.org/
-#or
-gem sources --add http://gems.ruby-china.org/
-
-#winodws 添加会因为SSL证书问题出错
-Error fetching https://gems.ruby-china.org/:
-SSL_connect returned=1 errno=0 state=SSLv2/v3 read server hello A: sslv3 alert handshake failure (https://gems-ruby-china.b0.aicdn.com/specs.4.8.gz)
-#解决办法？FUCK,翻墙吧or洗洗睡
-#查看列表
-gem sources -l
-#正常情况会输入如下信息
-*** CURRENT SOURCES ***
-https://gems.ruby-china.org/
-# 请确保只有 gems.ruby-china.org
-
-```
-3.2 安装sass  （可选）
-```cmd
-gem install sass
-#是否安装成功
-sass -v
-#输出信息
-Sass 3.4.9 (Selective Steve)
-```
-3.3 安装`compass` （可选）
-```cmd
-gem install compass
-#是否安装成功
-compass -v
-#输出信息
-Compass 1.0.1 (Polaris)
-Copyright (c) 2008-2014 Chris Eppstein
-Released under the MIT License.
-Compass is charityware.
-Please make a tax deductable donation for a worthy cause: http://umdf.org/compass
 ```
 
 ## git 工具
