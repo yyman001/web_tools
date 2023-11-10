@@ -5,6 +5,8 @@
 
 ## 前端环境需要的软件
 - [nvm](https://github.com/nvm-sh/nvm) 管理node 版本, [nvm-windows](https://github.com/coreybutler/nvm-windows)
+- [volta](https://github.com/volta-cli/volta) 同node版本管理,支持目录级别使用不同node版本
+- [n](https://github.com/tj/n) 同node版本管理
 - ~~[node][1] 如果不需要多个node版本管理，直接下载这个（不推荐）~~
 - [npm][2] , [cnpm][3] , 建议使用`nrm` 包镜像地址管理, [spm][4] 安装可以更换淘宝的安装包地址([淘宝镜像][5])
 - [pnpm 全新包管理](https://github.com/pnpm/pnpm)
